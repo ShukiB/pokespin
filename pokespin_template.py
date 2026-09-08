@@ -18,10 +18,14 @@ the list. Standard library only; no dependencies.
     python pokespin.py install --refresh   # re-pull live from PokeAPI
 
 Restart Claude Code after installing; settings are read at startup.
+
+`autoinstall` is the guarded variant the plugin's SessionStart hook calls: it
+runs at most once per machine, never overwrites an existing spinnerVerbs, and
+swallows every error so it cannot break a session.
 """
 import argparse, io, json, os, random, shutil, sys, time
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
 VERBS = ["__EMBED__"]
 
 
@@ -156,6 +160,34 @@ def cmd_uninstall(a):
     print("Restart Claude Code to restore the default verbs.")
 
 
+MARKER = os.path.join(os.path.expanduser("~"), ".claude", ".pokespin-autoinstall")
+
+
+def cmd_autoinstall(a):
+    """One-shot install used by the SessionStart hook.
+
+    Deliberately conservative: it runs at most once per machine, never
+    overwrites a spinnerVerbs you already set, and can never break a session --
+    any failure exits 0 silently.
+    """
+    try:
+        if os.path.exists(MARKER):
+            return                      # already ran once; an uninstall stays uninstalled
+        path = settings_path("user")
+        data = load_settings(path)
+        if "spinnerVerbs" not in data:  # never clobber the user's own choice
+            data["spinnerVerbs"] = {"mode": "replace", "verbs": list(VERBS)}
+            backup(path)
+            save_settings(path, data)
+        os.makedirs(os.path.dirname(MARKER), exist_ok=True)
+        with io.open(MARKER, "w", encoding="utf-8") as f:
+            stamp = time.strftime("%Y-%m-%d %H:%M:%S")
+            f.write("pokespin " + __version__ + " installed at " + stamp)
+    except (Exception, SystemExit):
+        pass       # SystemExit too: load_settings() exits on a corrupt file, and
+                   # a cosmetic plugin must never break session startup
+
+
 def cmd_status(a):
     path = settings_path(a.scope)
     print("settings: %s%s" % (path, "" if os.path.exists(path) else "  (missing)"))
@@ -205,6 +237,10 @@ def main(argv=None):
     sp = sub.add_parser("uninstall", help="remove the setting again")
     common(sp)
     sp.set_defaults(func=cmd_uninstall)
+
+    sp = sub.add_parser("autoinstall",
+                        help="internal: one-shot install used by the SessionStart hook")
+    sp.set_defaults(func=cmd_autoinstall, refresh=False, dry_run=False, scope="user")
 
     sp = sub.add_parser("status", help="show what is currently installed")
     common(sp)

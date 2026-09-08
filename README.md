@@ -67,7 +67,7 @@ Everyone who works in that repo gets it; nothing to install per machine.
 Restart Claude Code after any of these — settings are read once at startup.
 
 Flags: `--scope user|project` (default `user` = `~/.claude/settings.json`),
-`--dry-run`, `--refresh` (re-pull species live from PokeAPI instead of the
+`--dry-run`, `autoinstall` (the guarded one-shot the hook calls), `--refresh` (re-pull species live from PokeAPI instead of the
 embedded list -- needs `gerund.py` beside it; useful when Gen 10 lands).
 
 The installer timestamps a backup of `settings.json` before every write, writes
@@ -118,6 +118,7 @@ on any console codepage.
 ```
 .claude-plugin/     plugin + marketplace manifests (validated)
 commands/           the /pokespin slash command
+hooks/hooks.json    SessionStart hook -> `pokespin autoinstall` (once, guarded)
 install.sh          curl | sh one-liner
 install.ps1         irm | iex one-liner
 fetch_species.py   one-time pull + integrity check  -> data/species.json

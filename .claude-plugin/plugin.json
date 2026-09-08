@@ -1,7 +1,14 @@
 {
   "name": "pokespin",
-  "description": "Replace Claude Code's thinking-spinner verbs with all 1025 Pokemon.",
-  "version": "1.0.0",
-  "author": { "name": "Shuki" },
-  "keywords": ["pokemon", "spinner", "fun", "settings"]
+  "description": "Replace Claude Code's thinking-spinner verbs with all 1025 Pokemon. Installs itself on first session.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Shuki"
+  },
+  "keywords": [
+    "pokemon",
+    "spinner",
+    "fun",
+    "settings"
+  ]
 }
