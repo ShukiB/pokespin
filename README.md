@@ -90,7 +90,9 @@ git commit -am "Pokemon spinner for everyone on this repo"
 
 Everyone who works in that repo gets it; nothing to install per machine.
 
-Restart Claude Code after any of these — settings are read once at startup.
+Claude Code re-reads this setting live, so the change shows up on the very next
+spinner — no restart required. (Verified against a running session: installing
+mid-session changed the spinner without one. If yours doesn't update, restart.)
 
 Flags: `--scope user|project` (default `user` = `~/.claude/settings.json`),
 `--gen SPEC`, `--mode replace|append`, `--dry-run`, and `--refresh` (re-pull

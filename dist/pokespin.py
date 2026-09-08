@@ -20,7 +20,8 @@ the list. Standard library only; no dependencies.
     python pokespin.py uninstall
     python pokespin.py install --refresh     # re-pull live from PokeAPI
 
-Restart Claude Code after installing; settings are read at startup.
+Claude Code re-reads the setting live, so the new verbs show up on the next
+spinner -- no restart needed (restart anyway if you don't see them).
 Nothing is written unless you ask for it: there are no hooks and no background
 work, and `uninstall` puts Claude Code's own verbs back.
 """
@@ -203,7 +204,7 @@ def cmd_install(a):
     if prev:
         print("  note: replaced an existing spinnerVerbs setting.")
     print("  sample:   %s" % ", ".join(random.sample(verbs, min(6, len(verbs)))))
-    print("\nRestart Claude Code to see it.")
+    print("\nClaude Code picks this up live -- watch the next spinner.")
 
 
 def cmd_uninstall(a):
@@ -221,7 +222,7 @@ def cmd_uninstall(a):
     print("Removed spinnerVerbs from %s" % path)
     if b:
         print("  backup: %s" % b)
-    print("Restart Claude Code to restore the default verbs.")
+    print("Claude Code's own verbs are back on the next spinner.")
 
 
 def cmd_status(a):

@@ -24,6 +24,6 @@ If the user names a region rather than a number ("Johto", "Kanto"), map it to
 that generation. If they ask for "everything" or "all Pokemon", use `--gen all`.
 When they just say "install", let the default stand -- do not pass `--gen`.
 
-After an install or uninstall, tell the user in one line that Claude Code must
-be restarted, since settings are read once at startup. Report the script's own
-output rather than paraphrasing it.
+After an install or uninstall, tell the user in one line that Claude Code picks
+the change up live -- the next spinner already uses the new verbs, with no
+restart. Report the script's own output rather than paraphrasing it.
