@@ -37,17 +37,18 @@ $env:POKESPIN_ARGS = "install --mode append"; irm .../install.ps1 | iex
 
 ### As a Claude Code plugin
 
-Adds a `/pokespin` command inside Claude Code:
+Adds a `/pokespin:pokespin` command inside Claude Code (plugin commands are
+namespaced `plugin:command`, so the bare `/pokespin` is not registered):
 
 ```
 /plugin marketplace add ShukiB/pokespin
 /plugin install pokespin@pokespin
-/pokespin install
+/pokespin:pokespin install
 ```
 
-Nothing is written until you run `/pokespin install` yourself. The plugin
+Nothing is written until you run `/pokespin:pokespin install` yourself. The plugin
 installs no hooks, runs no background processes, and makes no network calls at
-runtime -- the verb list is embedded in the file. `/pokespin uninstall` removes
+runtime -- the verb list is embedded in the file. `/pokespin:pokespin uninstall` removes
 the setting and restores Claude Code's own verbs.
 
 ### Manual
@@ -150,7 +151,7 @@ on any console codepage.
 ```
 dist/pokespin.py       the self-contained installer -- this is what you ship
 .claude-plugin/        plugin + marketplace manifests (both validate)
-commands/pokespin.md   the /pokespin slash command
+commands/pokespin.md   the /pokespin:pokespin slash command
 install.sh             curl | sh one-liner
 install.ps1            irm | iex one-liner
 publish.sh             repoint the install URLs at your own account, and push

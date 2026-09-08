@@ -27,7 +27,7 @@ work, and `uninstall` puts Claude Code's own verbs back.
 """
 import argparse, io, json, os, random, shutil, sys, time
 
-__version__ = "1.2.0"
+__version__ = "1.2.1"
 
 # Generation -> verbs. Keys are strings so the embedded JSON round-trips.
 GEN_VERBS = {"__EMBED__": []}

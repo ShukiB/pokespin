@@ -8,7 +8,7 @@
       "name": "pokespin",
       "source": "./",
       "description": "Pokemon-themed thinking-spinner verbs for Claude Code, from any of the 9 generations. Unofficial fan project; not affiliated with Nintendo or The Pokemon Company.",
-      "version": "1.2.0"
+      "version": "1.2.1"
     }
   ],
   "description": "Pokemon-themed thinking-spinner verbs for Claude Code, from any of the 9 generations. Unofficial fan project; not affiliated with Nintendo or The Pokemon Company."
