@@ -1,9 +1,9 @@
 # pokespin one-line installer (Windows PowerShell)
-#   irm https://raw.githubusercontent.com/OWNER/pokespin/main/install.ps1 | iex
+#   irm https://raw.githubusercontent.com/ShukiB/pokespin/main/install.ps1 | iex
 # Pass args:  $env:POKESPIN_ARGS = "install --mode append"; irm ... | iex
 $ErrorActionPreference = "Stop"
 
-$repo = if ($env:POKESPIN_REPO) { $env:POKESPIN_REPO } else { "OWNER/pokespin" }
+$repo = if ($env:POKESPIN_REPO) { $env:POKESPIN_REPO } else { "ShukiB/pokespin" }
 $ref  = if ($env:POKESPIN_REF)  { $env:POKESPIN_REF }  else { "main" }
 $url  = "https://raw.githubusercontent.com/$repo/$ref/dist/pokespin.py"
 

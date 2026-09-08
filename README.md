@@ -13,13 +13,13 @@ all **1025 Pokémon**, inflected as verbs: *Mewing…*, *Charizarding…*,
 macOS / Linux / Git Bash:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/OWNER/pokespin/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/ShukiB/pokespin/main/install.sh | sh
 ```
 
 Windows PowerShell:
 
 ```powershell
-irm https://raw.githubusercontent.com/OWNER/pokespin/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/ShukiB/pokespin/main/install.ps1 | iex
 ```
 
 Passing arguments through the pipe:
@@ -36,7 +36,7 @@ $env:POKESPIN_ARGS = "install --mode append"; irm .../install.ps1 | iex
 Adds a `/pokespin` command inside Claude Code:
 
 ```
-/plugin marketplace add OWNER/pokespin
+/plugin marketplace add ShukiB/pokespin
 /plugin install pokespin@pokespin
 /pokespin install
 ```

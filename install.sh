@@ -1,11 +1,11 @@
 #!/usr/bin/env sh
 # pokespin one-line installer (macOS / Linux / Git Bash)
-#   curl -fsSL https://raw.githubusercontent.com/OWNER/pokespin/main/install.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/ShukiB/pokespin/main/install.sh | sh
 # Pass args:
 #   curl -fsSL .../install.sh | sh -s -- install --mode append
 set -eu
 
-REPO="${POKESPIN_REPO:-OWNER/pokespin}"
+REPO="${POKESPIN_REPO:-ShukiB/pokespin}"
 REF="${POKESPIN_REF:-main}"
 URL="https://raw.githubusercontent.com/${REPO}/${REF}/dist/pokespin.py"
 
