@@ -1,6 +1,6 @@
 {
   "name": "pokespin",
-  "description": "Pokemon thinking-spinner verbs for Claude Code -- pick any of the 9 generations (Kanto by default).",
+  "description": "Pokemon-themed thinking-spinner verbs for Claude Code, from any of the 9 generations. Unofficial fan project; not affiliated with Nintendo or The Pokemon Company.",
   "version": "1.2.0",
   "author": {
     "name": "Shuki"
