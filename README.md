@@ -45,6 +45,11 @@ Adds a `/pokespin` command inside Claude Code:
 /pokespin install
 ```
 
+Nothing is written until you run `/pokespin install` yourself. The plugin
+installs no hooks, runs no background processes, and makes no network calls at
+runtime -- the verb list is embedded in the file. `/pokespin uninstall` removes
+the setting and restores Claude Code's own verbs.
+
 ### Manual
 
 Copy `dist/pokespin.py` anywhere (it is fully self-contained) and run it:
@@ -106,10 +111,12 @@ Claude Code ≥ 2.1.x exposes a first-class setting — no patching, no forked b
 Claude Code samples one verb uniformly at random per turn, so randomness is its
 job; this tool only supplies the list.
 
-## Data
+## Data and attribution
 
-Names come from **PokéAPI** (`/api/v2/pokemon-species`), the community-standard
-Pokémon dataset. Verified at build time: count is exactly 1025, IDs contiguous
+Names come from **[PokéAPI](https://pokeapi.co)** (`/api/v2/pokemon-species`),
+a free, community-run, non-commercial Pokémon dataset. Thanks to its
+maintainers. The names are fetched once at build time and embedded; nothing is
+requested at runtime. Verified at build time: count is exactly 1025, IDs contiguous
 1–1025, every English name present, no duplicates, 9 generations.
 
 ## Inflection
@@ -140,7 +147,6 @@ on any console codepage.
 ```
 .claude-plugin/     plugin + marketplace manifests (validated)
 commands/           the /pokespin slash command
-hooks/hooks.json    SessionStart hook -> `pokespin autoinstall` (once, guarded)
 install.sh          curl | sh one-liner
 install.ps1         irm | iex one-liner
 fetch_species.py   one-time pull + integrity check  -> data/species.json
@@ -169,3 +175,22 @@ for anyone, with no release step and no build artifacts to publish.
 
 Users can pin a fork or branch without editing anything:
 `POKESPIN_REPO=someone/pokespin POKESPIN_REF=v1.0.0 sh install.sh`
+
+## Disclaimer
+
+**This is an unofficial, non-commercial fan project.** It is not affiliated
+with, endorsed by, sponsored by, or approved by Nintendo, Creatures Inc.,
+GAME FREAK Inc., The Pokémon Company, or Anthropic.
+
+Pokémon and all Pokémon character names are trademarks of Nintendo, Creatures
+Inc., GAME FREAK Inc., and The Pokémon Company. All rights in those names
+belong to their respective owners. They are used here only as descriptive
+references in a free cosmetic tool, with no commercial purpose and no claim of
+ownership.
+
+The MIT licence in `LICENSE` covers **this project's own code only** -- the
+scripts, the inflection rules, and the packaging. It grants no rights in the
+Pokémon names themselves.
+
+If a rights holder would like this taken down, open an issue and it will be
+removed.
