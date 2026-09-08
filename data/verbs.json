@@ -1,0 +1,5127 @@
+[
+ {
+  "id": 1,
+  "pokemon": "Bulbasaur",
+  "verb": "Bulbasauring"
+ },
+ {
+  "id": 2,
+  "pokemon": "Ivysaur",
+  "verb": "Ivysauring"
+ },
+ {
+  "id": 3,
+  "pokemon": "Venusaur",
+  "verb": "Venusauring"
+ },
+ {
+  "id": 4,
+  "pokemon": "Charmander",
+  "verb": "Charmandering"
+ },
+ {
+  "id": 5,
+  "pokemon": "Charmeleon",
+  "verb": "Charmeleoning"
+ },
+ {
+  "id": 6,
+  "pokemon": "Charizard",
+  "verb": "Charizarding"
+ },
+ {
+  "id": 7,
+  "pokemon": "Squirtle",
+  "verb": "Squirtling"
+ },
+ {
+  "id": 8,
+  "pokemon": "Wartortle",
+  "verb": "Wartortling"
+ },
+ {
+  "id": 9,
+  "pokemon": "Blastoise",
+  "verb": "Blastoising"
+ },
+ {
+  "id": 10,
+  "pokemon": "Caterpie",
+  "verb": "Caterpying"
+ },
+ {
+  "id": 11,
+  "pokemon": "Metapod",
+  "verb": "Metapoding"
+ },
+ {
+  "id": 12,
+  "pokemon": "Butterfree",
+  "verb": "Butterfreeing"
+ },
+ {
+  "id": 13,
+  "pokemon": "Weedle",
+  "verb": "Weedling"
+ },
+ {
+  "id": 14,
+  "pokemon": "Kakuna",
+  "verb": "Kakunaing"
+ },
+ {
+  "id": 15,
+  "pokemon": "Beedrill",
+  "verb": "Beedrilling"
+ },
+ {
+  "id": 16,
+  "pokemon": "Pidgey",
+  "verb": "Pidgeying"
+ },
+ {
+  "id": 17,
+  "pokemon": "Pidgeotto",
+  "verb": "Pidgeottoing"
+ },
+ {
+  "id": 18,
+  "pokemon": "Pidgeot",
+  "verb": "Pidgeoting"
+ },
+ {
+  "id": 19,
+  "pokemon": "Rattata",
+  "verb": "Rattataing"
+ },
+ {
+  "id": 20,
+  "pokemon": "Raticate",
+  "verb": "Raticating"
+ },
+ {
+  "id": 21,
+  "pokemon": "Spearow",
+  "verb": "Spearowing"
+ },
+ {
+  "id": 22,
+  "pokemon": "Fearow",
+  "verb": "Fearowing"
+ },
+ {
+  "id": 23,
+  "pokemon": "Ekans",
+  "verb": "Ekansing"
+ },
+ {
+  "id": 24,
+  "pokemon": "Arbok",
+  "verb": "Arboking"
+ },
+ {
+  "id": 25,
+  "pokemon": "Pikachu",
+  "verb": "Pikachuing"
+ },
+ {
+  "id": 26,
+  "pokemon": "Raichu",
+  "verb": "Raichuing"
+ },
+ {
+  "id": 27,
+  "pokemon": "Sandshrew",
+  "verb": "Sandshrewing"
+ },
+ {
+  "id": 28,
+  "pokemon": "Sandslash",
+  "verb": "Sandslashing"
+ },
+ {
+  "id": 29,
+  "pokemon": "Nidoran♀",
+  "verb": "Nidoran-Fing"
+ },
+ {
+  "id": 30,
+  "pokemon": "Nidorina",
+  "verb": "Nidorinaing"
+ },
+ {
+  "id": 31,
+  "pokemon": "Nidoqueen",
+  "verb": "Nidoqueening"
+ },
+ {
+  "id": 32,
+  "pokemon": "Nidoran♂",
+  "verb": "Nidoran-Ming"
+ },
+ {
+  "id": 33,
+  "pokemon": "Nidorino",
+  "verb": "Nidorinoing"
+ },
+ {
+  "id": 34,
+  "pokemon": "Nidoking",
+  "verb": "Nidokinging"
+ },
+ {
+  "id": 35,
+  "pokemon": "Clefairy",
+  "verb": "Clefairying"
+ },
+ {
+  "id": 36,
+  "pokemon": "Clefable",
+  "verb": "Clefabling"
+ },
+ {
+  "id": 37,
+  "pokemon": "Vulpix",
+  "verb": "Vulpixing"
+ },
+ {
+  "id": 38,
+  "pokemon": "Ninetales",
+  "verb": "Ninetalesing"
+ },
+ {
+  "id": 39,
+  "pokemon": "Jigglypuff",
+  "verb": "Jigglypuffing"
+ },
+ {
+  "id": 40,
+  "pokemon": "Wigglytuff",
+  "verb": "Wigglytuffing"
+ },
+ {
+  "id": 41,
+  "pokemon": "Zubat",
+  "verb": "Zubatting"
+ },
+ {
+  "id": 42,
+  "pokemon": "Golbat",
+  "verb": "Golbatting"
+ },
+ {
+  "id": 43,
+  "pokemon": "Oddish",
+  "verb": "Oddishing"
+ },
+ {
+  "id": 44,
+  "pokemon": "Gloom",
+  "verb": "Glooming"
+ },
+ {
+  "id": 45,
+  "pokemon": "Vileplume",
+  "verb": "Vilepluming"
+ },
+ {
+  "id": 46,
+  "pokemon": "Paras",
+  "verb": "Parasing"
+ },
+ {
+  "id": 47,
+  "pokemon": "Parasect",
+  "verb": "Parasecting"
+ },
+ {
+  "id": 48,
+  "pokemon": "Venonat",
+  "verb": "Venonating"
+ },
+ {
+  "id": 49,
+  "pokemon": "Venomoth",
+  "verb": "Venomothing"
+ },
+ {
+  "id": 50,
+  "pokemon": "Diglett",
+  "verb": "Digletting"
+ },
+ {
+  "id": 51,
+  "pokemon": "Dugtrio",
+  "verb": "Dugtrioing"
+ },
+ {
+  "id": 52,
+  "pokemon": "Meowth",
+  "verb": "Meowthing"
+ },
+ {
+  "id": 53,
+  "pokemon": "Persian",
+  "verb": "Persianing"
+ },
+ {
+  "id": 54,
+  "pokemon": "Psyduck",
+  "verb": "Psyducking"
+ },
+ {
+  "id": 55,
+  "pokemon": "Golduck",
+  "verb": "Golducking"
+ },
+ {
+  "id": 56,
+  "pokemon": "Mankey",
+  "verb": "Mankeying"
+ },
+ {
+  "id": 57,
+  "pokemon": "Primeape",
+  "verb": "Primeaping"
+ },
+ {
+  "id": 58,
+  "pokemon": "Growlithe",
+  "verb": "Growlithing"
+ },
+ {
+  "id": 59,
+  "pokemon": "Arcanine",
+  "verb": "Arcanining"
+ },
+ {
+  "id": 60,
+  "pokemon": "Poliwag",
+  "verb": "Poliwaging"
+ },
+ {
+  "id": 61,
+  "pokemon": "Poliwhirl",
+  "verb": "Poliwhirling"
+ },
+ {
+  "id": 62,
+  "pokemon": "Poliwrath",
+  "verb": "Poliwrathing"
+ },
+ {
+  "id": 63,
+  "pokemon": "Abra",
+  "verb": "Abraing"
+ },
+ {
+  "id": 64,
+  "pokemon": "Kadabra",
+  "verb": "Kadabraing"
+ },
+ {
+  "id": 65,
+  "pokemon": "Alakazam",
+  "verb": "Alakazaming"
+ },
+ {
+  "id": 66,
+  "pokemon": "Machop",
+  "verb": "Machopping"
+ },
+ {
+  "id": 67,
+  "pokemon": "Machoke",
+  "verb": "Machoking"
+ },
+ {
+  "id": 68,
+  "pokemon": "Machamp",
+  "verb": "Machamping"
+ },
+ {
+  "id": 69,
+  "pokemon": "Bellsprout",
+  "verb": "Bellsprouting"
+ },
+ {
+  "id": 70,
+  "pokemon": "Weepinbell",
+  "verb": "Weepinbelling"
+ },
+ {
+  "id": 71,
+  "pokemon": "Victreebel",
+  "verb": "Victreebeling"
+ },
+ {
+  "id": 72,
+  "pokemon": "Tentacool",
+  "verb": "Tentacooling"
+ },
+ {
+  "id": 73,
+  "pokemon": "Tentacruel",
+  "verb": "Tentacrueling"
+ },
+ {
+  "id": 74,
+  "pokemon": "Geodude",
+  "verb": "Geoduding"
+ },
+ {
+  "id": 75,
+  "pokemon": "Graveler",
+  "verb": "Gravelering"
+ },
+ {
+  "id": 76,
+  "pokemon": "Golem",
+  "verb": "Goleming"
+ },
+ {
+  "id": 77,
+  "pokemon": "Ponyta",
+  "verb": "Ponytaing"
+ },
+ {
+  "id": 78,
+  "pokemon": "Rapidash",
+  "verb": "Rapidashing"
+ },
+ {
+  "id": 79,
+  "pokemon": "Slowpoke",
+  "verb": "Slowpoking"
+ },
+ {
+  "id": 80,
+  "pokemon": "Slowbro",
+  "verb": "Slowbroing"
+ },
+ {
+  "id": 81,
+  "pokemon": "Magnemite",
+  "verb": "Magnemiting"
+ },
+ {
+  "id": 82,
+  "pokemon": "Magneton",
+  "verb": "Magnetoning"
+ },
+ {
+  "id": 83,
+  "pokemon": "Farfetch’d",
+  "verb": "Farfetch'ding"
+ },
+ {
+  "id": 84,
+  "pokemon": "Doduo",
+  "verb": "Doduoing"
+ },
+ {
+  "id": 85,
+  "pokemon": "Dodrio",
+  "verb": "Dodrioing"
+ },
+ {
+  "id": 86,
+  "pokemon": "Seel",
+  "verb": "Seeling"
+ },
+ {
+  "id": 87,
+  "pokemon": "Dewgong",
+  "verb": "Dewgonging"
+ },
+ {
+  "id": 88,
+  "pokemon": "Grimer",
+  "verb": "Grimering"
+ },
+ {
+  "id": 89,
+  "pokemon": "Muk",
+  "verb": "Muking"
+ },
+ {
+  "id": 90,
+  "pokemon": "Shellder",
+  "verb": "Shelldering"
+ },
+ {
+  "id": 91,
+  "pokemon": "Cloyster",
+  "verb": "Cloystering"
+ },
+ {
+  "id": 92,
+  "pokemon": "Gastly",
+  "verb": "Gastlying"
+ },
+ {
+  "id": 93,
+  "pokemon": "Haunter",
+  "verb": "Hauntering"
+ },
+ {
+  "id": 94,
+  "pokemon": "Gengar",
+  "verb": "Gengaring"
+ },
+ {
+  "id": 95,
+  "pokemon": "Onix",
+  "verb": "Onixing"
+ },
+ {
+  "id": 96,
+  "pokemon": "Drowzee",
+  "verb": "Drowzeeing"
+ },
+ {
+  "id": 97,
+  "pokemon": "Hypno",
+  "verb": "Hypnoing"
+ },
+ {
+  "id": 98,
+  "pokemon": "Krabby",
+  "verb": "Krabbying"
+ },
+ {
+  "id": 99,
+  "pokemon": "Kingler",
+  "verb": "Kinglering"
+ },
+ {
+  "id": 100,
+  "pokemon": "Voltorb",
+  "verb": "Voltorbing"
+ },
+ {
+  "id": 101,
+  "pokemon": "Electrode",
+  "verb": "Electroding"
+ },
+ {
+  "id": 102,
+  "pokemon": "Exeggcute",
+  "verb": "Exeggcuting"
+ },
+ {
+  "id": 103,
+  "pokemon": "Exeggutor",
+  "verb": "Exeggutoring"
+ },
+ {
+  "id": 104,
+  "pokemon": "Cubone",
+  "verb": "Cuboning"
+ },
+ {
+  "id": 105,
+  "pokemon": "Marowak",
+  "verb": "Marowaking"
+ },
+ {
+  "id": 106,
+  "pokemon": "Hitmonlee",
+  "verb": "Hitmonleeing"
+ },
+ {
+  "id": 107,
+  "pokemon": "Hitmonchan",
+  "verb": "Hitmonchaning"
+ },
+ {
+  "id": 108,
+  "pokemon": "Lickitung",
+  "verb": "Lickitunging"
+ },
+ {
+  "id": 109,
+  "pokemon": "Koffing",
+  "verb": "Koffinging"
+ },
+ {
+  "id": 110,
+  "pokemon": "Weezing",
+  "verb": "Weezinging"
+ },
+ {
+  "id": 111,
+  "pokemon": "Rhyhorn",
+  "verb": "Rhyhorning"
+ },
+ {
+  "id": 112,
+  "pokemon": "Rhydon",
+  "verb": "Rhydoning"
+ },
+ {
+  "id": 113,
+  "pokemon": "Chansey",
+  "verb": "Chanseying"
+ },
+ {
+  "id": 114,
+  "pokemon": "Tangela",
+  "verb": "Tangelaing"
+ },
+ {
+  "id": 115,
+  "pokemon": "Kangaskhan",
+  "verb": "Kangaskhaning"
+ },
+ {
+  "id": 116,
+  "pokemon": "Horsea",
+  "verb": "Horseaing"
+ },
+ {
+  "id": 117,
+  "pokemon": "Seadra",
+  "verb": "Seadraing"
+ },
+ {
+  "id": 118,
+  "pokemon": "Goldeen",
+  "verb": "Goldeening"
+ },
+ {
+  "id": 119,
+  "pokemon": "Seaking",
+  "verb": "Seakinging"
+ },
+ {
+  "id": 120,
+  "pokemon": "Staryu",
+  "verb": "Staryuing"
+ },
+ {
+  "id": 121,
+  "pokemon": "Starmie",
+  "verb": "Starmying"
+ },
+ {
+  "id": 122,
+  "pokemon": "Mr. Mime",
+  "verb": "Mr. Miming"
+ },
+ {
+  "id": 123,
+  "pokemon": "Scyther",
+  "verb": "Scythering"
+ },
+ {
+  "id": 124,
+  "pokemon": "Jynx",
+  "verb": "Jynxing"
+ },
+ {
+  "id": 125,
+  "pokemon": "Electabuzz",
+  "verb": "Electabuzzing"
+ },
+ {
+  "id": 126,
+  "pokemon": "Magmar",
+  "verb": "Magmaring"
+ },
+ {
+  "id": 127,
+  "pokemon": "Pinsir",
+  "verb": "Pinsiring"
+ },
+ {
+  "id": 128,
+  "pokemon": "Tauros",
+  "verb": "Taurosing"
+ },
+ {
+  "id": 129,
+  "pokemon": "Magikarp",
+  "verb": "Magikarping"
+ },
+ {
+  "id": 130,
+  "pokemon": "Gyarados",
+  "verb": "Gyaradosing"
+ },
+ {
+  "id": 131,
+  "pokemon": "Lapras",
+  "verb": "Laprasing"
+ },
+ {
+  "id": 132,
+  "pokemon": "Ditto",
+  "verb": "Dittoing"
+ },
+ {
+  "id": 133,
+  "pokemon": "Eevee",
+  "verb": "Eeveeing"
+ },
+ {
+  "id": 134,
+  "pokemon": "Vaporeon",
+  "verb": "Vaporeoning"
+ },
+ {
+  "id": 135,
+  "pokemon": "Jolteon",
+  "verb": "Jolteoning"
+ },
+ {
+  "id": 136,
+  "pokemon": "Flareon",
+  "verb": "Flareoning"
+ },
+ {
+  "id": 137,
+  "pokemon": "Porygon",
+  "verb": "Porygoning"
+ },
+ {
+  "id": 138,
+  "pokemon": "Omanyte",
+  "verb": "Omanyting"
+ },
+ {
+  "id": 139,
+  "pokemon": "Omastar",
+  "verb": "Omastaring"
+ },
+ {
+  "id": 140,
+  "pokemon": "Kabuto",
+  "verb": "Kabutoing"
+ },
+ {
+  "id": 141,
+  "pokemon": "Kabutops",
+  "verb": "Kabutopsing"
+ },
+ {
+  "id": 142,
+  "pokemon": "Aerodactyl",
+  "verb": "Aerodactyling"
+ },
+ {
+  "id": 143,
+  "pokemon": "Snorlax",
+  "verb": "Snorlaxing"
+ },
+ {
+  "id": 144,
+  "pokemon": "Articuno",
+  "verb": "Articunoing"
+ },
+ {
+  "id": 145,
+  "pokemon": "Zapdos",
+  "verb": "Zapdosing"
+ },
+ {
+  "id": 146,
+  "pokemon": "Moltres",
+  "verb": "Moltresing"
+ },
+ {
+  "id": 147,
+  "pokemon": "Dratini",
+  "verb": "Dratiniing"
+ },
+ {
+  "id": 148,
+  "pokemon": "Dragonair",
+  "verb": "Dragonairing"
+ },
+ {
+  "id": 149,
+  "pokemon": "Dragonite",
+  "verb": "Dragoniting"
+ },
+ {
+  "id": 150,
+  "pokemon": "Mewtwo",
+  "verb": "Mewtwoing"
+ },
+ {
+  "id": 151,
+  "pokemon": "Mew",
+  "verb": "Mewing"
+ },
+ {
+  "id": 152,
+  "pokemon": "Chikorita",
+  "verb": "Chikoritaing"
+ },
+ {
+  "id": 153,
+  "pokemon": "Bayleef",
+  "verb": "Bayleefing"
+ },
+ {
+  "id": 154,
+  "pokemon": "Meganium",
+  "verb": "Meganiuming"
+ },
+ {
+  "id": 155,
+  "pokemon": "Cyndaquil",
+  "verb": "Cyndaquiling"
+ },
+ {
+  "id": 156,
+  "pokemon": "Quilava",
+  "verb": "Quilavaing"
+ },
+ {
+  "id": 157,
+  "pokemon": "Typhlosion",
+  "verb": "Typhlosioning"
+ },
+ {
+  "id": 158,
+  "pokemon": "Totodile",
+  "verb": "Totodiling"
+ },
+ {
+  "id": 159,
+  "pokemon": "Croconaw",
+  "verb": "Croconawing"
+ },
+ {
+  "id": 160,
+  "pokemon": "Feraligatr",
+  "verb": "Feraligatring"
+ },
+ {
+  "id": 161,
+  "pokemon": "Sentret",
+  "verb": "Sentretting"
+ },
+ {
+  "id": 162,
+  "pokemon": "Furret",
+  "verb": "Furretting"
+ },
+ {
+  "id": 163,
+  "pokemon": "Hoothoot",
+  "verb": "Hoothooting"
+ },
+ {
+  "id": 164,
+  "pokemon": "Noctowl",
+  "verb": "Noctowling"
+ },
+ {
+  "id": 165,
+  "pokemon": "Ledyba",
+  "verb": "Ledybaing"
+ },
+ {
+  "id": 166,
+  "pokemon": "Ledian",
+  "verb": "Ledianing"
+ },
+ {
+  "id": 167,
+  "pokemon": "Spinarak",
+  "verb": "Spinaraking"
+ },
+ {
+  "id": 168,
+  "pokemon": "Ariados",
+  "verb": "Ariadosing"
+ },
+ {
+  "id": 169,
+  "pokemon": "Crobat",
+  "verb": "Crobatting"
+ },
+ {
+  "id": 170,
+  "pokemon": "Chinchou",
+  "verb": "Chinchouing"
+ },
+ {
+  "id": 171,
+  "pokemon": "Lanturn",
+  "verb": "Lanturning"
+ },
+ {
+  "id": 172,
+  "pokemon": "Pichu",
+  "verb": "Pichuing"
+ },
+ {
+  "id": 173,
+  "pokemon": "Cleffa",
+  "verb": "Cleffaing"
+ },
+ {
+  "id": 174,
+  "pokemon": "Igglybuff",
+  "verb": "Igglybuffing"
+ },
+ {
+  "id": 175,
+  "pokemon": "Togepi",
+  "verb": "Togepiing"
+ },
+ {
+  "id": 176,
+  "pokemon": "Togetic",
+  "verb": "Togeticking"
+ },
+ {
+  "id": 177,
+  "pokemon": "Natu",
+  "verb": "Natuing"
+ },
+ {
+  "id": 178,
+  "pokemon": "Xatu",
+  "verb": "Xatuing"
+ },
+ {
+  "id": 179,
+  "pokemon": "Mareep",
+  "verb": "Mareeping"
+ },
+ {
+  "id": 180,
+  "pokemon": "Flaaffy",
+  "verb": "Flaaffying"
+ },
+ {
+  "id": 181,
+  "pokemon": "Ampharos",
+  "verb": "Ampharosing"
+ },
+ {
+  "id": 182,
+  "pokemon": "Bellossom",
+  "verb": "Bellossoming"
+ },
+ {
+  "id": 183,
+  "pokemon": "Marill",
+  "verb": "Marilling"
+ },
+ {
+  "id": 184,
+  "pokemon": "Azumarill",
+  "verb": "Azumarilling"
+ },
+ {
+  "id": 185,
+  "pokemon": "Sudowoodo",
+  "verb": "Sudowoodoing"
+ },
+ {
+  "id": 186,
+  "pokemon": "Politoed",
+  "verb": "Politoeding"
+ },
+ {
+  "id": 187,
+  "pokemon": "Hoppip",
+  "verb": "Hoppipping"
+ },
+ {
+  "id": 188,
+  "pokemon": "Skiploom",
+  "verb": "Skiplooming"
+ },
+ {
+  "id": 189,
+  "pokemon": "Jumpluff",
+  "verb": "Jumpluffing"
+ },
+ {
+  "id": 190,
+  "pokemon": "Aipom",
+  "verb": "Aipoming"
+ },
+ {
+  "id": 191,
+  "pokemon": "Sunkern",
+  "verb": "Sunkerning"
+ },
+ {
+  "id": 192,
+  "pokemon": "Sunflora",
+  "verb": "Sunfloraing"
+ },
+ {
+  "id": 193,
+  "pokemon": "Yanma",
+  "verb": "Yanmaing"
+ },
+ {
+  "id": 194,
+  "pokemon": "Wooper",
+  "verb": "Woopering"
+ },
+ {
+  "id": 195,
+  "pokemon": "Quagsire",
+  "verb": "Quagsiring"
+ },
+ {
+  "id": 196,
+  "pokemon": "Espeon",
+  "verb": "Espeoning"
+ },
+ {
+  "id": 197,
+  "pokemon": "Umbreon",
+  "verb": "Umbreoning"
+ },
+ {
+  "id": 198,
+  "pokemon": "Murkrow",
+  "verb": "Murkrowing"
+ },
+ {
+  "id": 199,
+  "pokemon": "Slowking",
+  "verb": "Slowkinging"
+ },
+ {
+  "id": 200,
+  "pokemon": "Misdreavus",
+  "verb": "Misdreavusing"
+ },
+ {
+  "id": 201,
+  "pokemon": "Unown",
+  "verb": "Unowning"
+ },
+ {
+  "id": 202,
+  "pokemon": "Wobbuffet",
+  "verb": "Wobbuffeting"
+ },
+ {
+  "id": 203,
+  "pokemon": "Girafarig",
+  "verb": "Girafariging"
+ },
+ {
+  "id": 204,
+  "pokemon": "Pineco",
+  "verb": "Pinecoing"
+ },
+ {
+  "id": 205,
+  "pokemon": "Forretress",
+  "verb": "Forretressing"
+ },
+ {
+  "id": 206,
+  "pokemon": "Dunsparce",
+  "verb": "Dunsparcing"
+ },
+ {
+  "id": 207,
+  "pokemon": "Gligar",
+  "verb": "Gligaring"
+ },
+ {
+  "id": 208,
+  "pokemon": "Steelix",
+  "verb": "Steelixing"
+ },
+ {
+  "id": 209,
+  "pokemon": "Snubbull",
+  "verb": "Snubbulling"
+ },
+ {
+  "id": 210,
+  "pokemon": "Granbull",
+  "verb": "Granbulling"
+ },
+ {
+  "id": 211,
+  "pokemon": "Qwilfish",
+  "verb": "Qwilfishing"
+ },
+ {
+  "id": 212,
+  "pokemon": "Scizor",
+  "verb": "Scizoring"
+ },
+ {
+  "id": 213,
+  "pokemon": "Shuckle",
+  "verb": "Shuckling"
+ },
+ {
+  "id": 214,
+  "pokemon": "Heracross",
+  "verb": "Heracrossing"
+ },
+ {
+  "id": 215,
+  "pokemon": "Sneasel",
+  "verb": "Sneaseling"
+ },
+ {
+  "id": 216,
+  "pokemon": "Teddiursa",
+  "verb": "Teddiursaing"
+ },
+ {
+  "id": 217,
+  "pokemon": "Ursaring",
+  "verb": "Ursaringing"
+ },
+ {
+  "id": 218,
+  "pokemon": "Slugma",
+  "verb": "Slugmaing"
+ },
+ {
+  "id": 219,
+  "pokemon": "Magcargo",
+  "verb": "Magcargoing"
+ },
+ {
+  "id": 220,
+  "pokemon": "Swinub",
+  "verb": "Swinubbing"
+ },
+ {
+  "id": 221,
+  "pokemon": "Piloswine",
+  "verb": "Piloswining"
+ },
+ {
+  "id": 222,
+  "pokemon": "Corsola",
+  "verb": "Corsolaing"
+ },
+ {
+  "id": 223,
+  "pokemon": "Remoraid",
+  "verb": "Remoraiding"
+ },
+ {
+  "id": 224,
+  "pokemon": "Octillery",
+  "verb": "Octillerying"
+ },
+ {
+  "id": 225,
+  "pokemon": "Delibird",
+  "verb": "Delibirding"
+ },
+ {
+  "id": 226,
+  "pokemon": "Mantine",
+  "verb": "Mantining"
+ },
+ {
+  "id": 227,
+  "pokemon": "Skarmory",
+  "verb": "Skarmorying"
+ },
+ {
+  "id": 228,
+  "pokemon": "Houndour",
+  "verb": "Houndouring"
+ },
+ {
+  "id": 229,
+  "pokemon": "Houndoom",
+  "verb": "Houndooming"
+ },
+ {
+  "id": 230,
+  "pokemon": "Kingdra",
+  "verb": "Kingdraing"
+ },
+ {
+  "id": 231,
+  "pokemon": "Phanpy",
+  "verb": "Phanpying"
+ },
+ {
+  "id": 232,
+  "pokemon": "Donphan",
+  "verb": "Donphaning"
+ },
+ {
+  "id": 233,
+  "pokemon": "Porygon2",
+  "verb": "Porygon2ing"
+ },
+ {
+  "id": 234,
+  "pokemon": "Stantler",
+  "verb": "Stantlering"
+ },
+ {
+  "id": 235,
+  "pokemon": "Smeargle",
+  "verb": "Smeargling"
+ },
+ {
+  "id": 236,
+  "pokemon": "Tyrogue",
+  "verb": "Tyrogueing"
+ },
+ {
+  "id": 237,
+  "pokemon": "Hitmontop",
+  "verb": "Hitmontoping"
+ },
+ {
+  "id": 238,
+  "pokemon": "Smoochum",
+  "verb": "Smoochuming"
+ },
+ {
+  "id": 239,
+  "pokemon": "Elekid",
+  "verb": "Elekiding"
+ },
+ {
+  "id": 240,
+  "pokemon": "Magby",
+  "verb": "Magbying"
+ },
+ {
+  "id": 241,
+  "pokemon": "Miltank",
+  "verb": "Miltanking"
+ },
+ {
+  "id": 242,
+  "pokemon": "Blissey",
+  "verb": "Blisseying"
+ },
+ {
+  "id": 243,
+  "pokemon": "Raikou",
+  "verb": "Raikouing"
+ },
+ {
+  "id": 244,
+  "pokemon": "Entei",
+  "verb": "Enteiing"
+ },
+ {
+  "id": 245,
+  "pokemon": "Suicune",
+  "verb": "Suicuning"
+ },
+ {
+  "id": 246,
+  "pokemon": "Larvitar",
+  "verb": "Larvitaring"
+ },
+ {
+  "id": 247,
+  "pokemon": "Pupitar",
+  "verb": "Pupitaring"
+ },
+ {
+  "id": 248,
+  "pokemon": "Tyranitar",
+  "verb": "Tyranitaring"
+ },
+ {
+  "id": 249,
+  "pokemon": "Lugia",
+  "verb": "Lugiaing"
+ },
+ {
+  "id": 250,
+  "pokemon": "Ho-Oh",
+  "verb": "Ho-Ohing"
+ },
+ {
+  "id": 251,
+  "pokemon": "Celebi",
+  "verb": "Celebiing"
+ },
+ {
+  "id": 252,
+  "pokemon": "Treecko",
+  "verb": "Treeckoing"
+ },
+ {
+  "id": 253,
+  "pokemon": "Grovyle",
+  "verb": "Grovyling"
+ },
+ {
+  "id": 254,
+  "pokemon": "Sceptile",
+  "verb": "Sceptiling"
+ },
+ {
+  "id": 255,
+  "pokemon": "Torchic",
+  "verb": "Torchicking"
+ },
+ {
+  "id": 256,
+  "pokemon": "Combusken",
+  "verb": "Combuskening"
+ },
+ {
+  "id": 257,
+  "pokemon": "Blaziken",
+  "verb": "Blazikening"
+ },
+ {
+  "id": 258,
+  "pokemon": "Mudkip",
+  "verb": "Mudkipping"
+ },
+ {
+  "id": 259,
+  "pokemon": "Marshtomp",
+  "verb": "Marshtomping"
+ },
+ {
+  "id": 260,
+  "pokemon": "Swampert",
+  "verb": "Swamperting"
+ },
+ {
+  "id": 261,
+  "pokemon": "Poochyena",
+  "verb": "Poochyenaing"
+ },
+ {
+  "id": 262,
+  "pokemon": "Mightyena",
+  "verb": "Mightyenaing"
+ },
+ {
+  "id": 263,
+  "pokemon": "Zigzagoon",
+  "verb": "Zigzagooning"
+ },
+ {
+  "id": 264,
+  "pokemon": "Linoone",
+  "verb": "Linooning"
+ },
+ {
+  "id": 265,
+  "pokemon": "Wurmple",
+  "verb": "Wurmpling"
+ },
+ {
+  "id": 266,
+  "pokemon": "Silcoon",
+  "verb": "Silcooning"
+ },
+ {
+  "id": 267,
+  "pokemon": "Beautifly",
+  "verb": "Beautiflying"
+ },
+ {
+  "id": 268,
+  "pokemon": "Cascoon",
+  "verb": "Cascooning"
+ },
+ {
+  "id": 269,
+  "pokemon": "Dustox",
+  "verb": "Dustoxing"
+ },
+ {
+  "id": 270,
+  "pokemon": "Lotad",
+  "verb": "Lotadding"
+ },
+ {
+  "id": 271,
+  "pokemon": "Lombre",
+  "verb": "Lombring"
+ },
+ {
+  "id": 272,
+  "pokemon": "Ludicolo",
+  "verb": "Ludicoloing"
+ },
+ {
+  "id": 273,
+  "pokemon": "Seedot",
+  "verb": "Seedotting"
+ },
+ {
+  "id": 274,
+  "pokemon": "Nuzleaf",
+  "verb": "Nuzleafing"
+ },
+ {
+  "id": 275,
+  "pokemon": "Shiftry",
+  "verb": "Shiftrying"
+ },
+ {
+  "id": 276,
+  "pokemon": "Taillow",
+  "verb": "Taillowing"
+ },
+ {
+  "id": 277,
+  "pokemon": "Swellow",
+  "verb": "Swellowing"
+ },
+ {
+  "id": 278,
+  "pokemon": "Wingull",
+  "verb": "Wingulling"
+ },
+ {
+  "id": 279,
+  "pokemon": "Pelipper",
+  "verb": "Pelippering"
+ },
+ {
+  "id": 280,
+  "pokemon": "Ralts",
+  "verb": "Raltsing"
+ },
+ {
+  "id": 281,
+  "pokemon": "Kirlia",
+  "verb": "Kirliaing"
+ },
+ {
+  "id": 282,
+  "pokemon": "Gardevoir",
+  "verb": "Gardevoiring"
+ },
+ {
+  "id": 283,
+  "pokemon": "Surskit",
+  "verb": "Surskitting"
+ },
+ {
+  "id": 284,
+  "pokemon": "Masquerain",
+  "verb": "Masqueraining"
+ },
+ {
+  "id": 285,
+  "pokemon": "Shroomish",
+  "verb": "Shroomishing"
+ },
+ {
+  "id": 286,
+  "pokemon": "Breloom",
+  "verb": "Brelooming"
+ },
+ {
+  "id": 287,
+  "pokemon": "Slakoth",
+  "verb": "Slakothing"
+ },
+ {
+  "id": 288,
+  "pokemon": "Vigoroth",
+  "verb": "Vigorothing"
+ },
+ {
+  "id": 289,
+  "pokemon": "Slaking",
+  "verb": "Slakinging"
+ },
+ {
+  "id": 290,
+  "pokemon": "Nincada",
+  "verb": "Nincadaing"
+ },
+ {
+  "id": 291,
+  "pokemon": "Ninjask",
+  "verb": "Ninjasking"
+ },
+ {
+  "id": 292,
+  "pokemon": "Shedinja",
+  "verb": "Shedinjaing"
+ },
+ {
+  "id": 293,
+  "pokemon": "Whismur",
+  "verb": "Whismuring"
+ },
+ {
+  "id": 294,
+  "pokemon": "Loudred",
+  "verb": "Loudredding"
+ },
+ {
+  "id": 295,
+  "pokemon": "Exploud",
+  "verb": "Explouding"
+ },
+ {
+  "id": 296,
+  "pokemon": "Makuhita",
+  "verb": "Makuhitaing"
+ },
+ {
+  "id": 297,
+  "pokemon": "Hariyama",
+  "verb": "Hariyamaing"
+ },
+ {
+  "id": 298,
+  "pokemon": "Azurill",
+  "verb": "Azurilling"
+ },
+ {
+  "id": 299,
+  "pokemon": "Nosepass",
+  "verb": "Nosepassing"
+ },
+ {
+  "id": 300,
+  "pokemon": "Skitty",
+  "verb": "Skittying"
+ },
+ {
+  "id": 301,
+  "pokemon": "Delcatty",
+  "verb": "Delcattying"
+ },
+ {
+  "id": 302,
+  "pokemon": "Sableye",
+  "verb": "Sableyeing"
+ },
+ {
+  "id": 303,
+  "pokemon": "Mawile",
+  "verb": "Mawiling"
+ },
+ {
+  "id": 304,
+  "pokemon": "Aron",
+  "verb": "Aroning"
+ },
+ {
+  "id": 305,
+  "pokemon": "Lairon",
+  "verb": "Laironing"
+ },
+ {
+  "id": 306,
+  "pokemon": "Aggron",
+  "verb": "Aggroning"
+ },
+ {
+  "id": 307,
+  "pokemon": "Meditite",
+  "verb": "Medititing"
+ },
+ {
+  "id": 308,
+  "pokemon": "Medicham",
+  "verb": "Medichaming"
+ },
+ {
+  "id": 309,
+  "pokemon": "Electrike",
+  "verb": "Electriking"
+ },
+ {
+  "id": 310,
+  "pokemon": "Manectric",
+  "verb": "Manectricking"
+ },
+ {
+  "id": 311,
+  "pokemon": "Plusle",
+  "verb": "Plusling"
+ },
+ {
+  "id": 312,
+  "pokemon": "Minun",
+  "verb": "Minunning"
+ },
+ {
+  "id": 313,
+  "pokemon": "Volbeat",
+  "verb": "Volbeating"
+ },
+ {
+  "id": 314,
+  "pokemon": "Illumise",
+  "verb": "Illumising"
+ },
+ {
+  "id": 315,
+  "pokemon": "Roselia",
+  "verb": "Roseliaing"
+ },
+ {
+  "id": 316,
+  "pokemon": "Gulpin",
+  "verb": "Gulpining"
+ },
+ {
+  "id": 317,
+  "pokemon": "Swalot",
+  "verb": "Swalotting"
+ },
+ {
+  "id": 318,
+  "pokemon": "Carvanha",
+  "verb": "Carvanhaing"
+ },
+ {
+  "id": 319,
+  "pokemon": "Sharpedo",
+  "verb": "Sharpedoing"
+ },
+ {
+  "id": 320,
+  "pokemon": "Wailmer",
+  "verb": "Wailmering"
+ },
+ {
+  "id": 321,
+  "pokemon": "Wailord",
+  "verb": "Wailording"
+ },
+ {
+  "id": 322,
+  "pokemon": "Numel",
+  "verb": "Numeling"
+ },
+ {
+  "id": 323,
+  "pokemon": "Camerupt",
+  "verb": "Camerupting"
+ },
+ {
+  "id": 324,
+  "pokemon": "Torkoal",
+  "verb": "Torkoaling"
+ },
+ {
+  "id": 325,
+  "pokemon": "Spoink",
+  "verb": "Spoinking"
+ },
+ {
+  "id": 326,
+  "pokemon": "Grumpig",
+  "verb": "Grumpigging"
+ },
+ {
+  "id": 327,
+  "pokemon": "Spinda",
+  "verb": "Spindaing"
+ },
+ {
+  "id": 328,
+  "pokemon": "Trapinch",
+  "verb": "Trapinching"
+ },
+ {
+  "id": 329,
+  "pokemon": "Vibrava",
+  "verb": "Vibravaing"
+ },
+ {
+  "id": 330,
+  "pokemon": "Flygon",
+  "verb": "Flygoning"
+ },
+ {
+  "id": 331,
+  "pokemon": "Cacnea",
+  "verb": "Cacneaing"
+ },
+ {
+  "id": 332,
+  "pokemon": "Cacturne",
+  "verb": "Cacturning"
+ },
+ {
+  "id": 333,
+  "pokemon": "Swablu",
+  "verb": "Swabluing"
+ },
+ {
+  "id": 334,
+  "pokemon": "Altaria",
+  "verb": "Altariaing"
+ },
+ {
+  "id": 335,
+  "pokemon": "Zangoose",
+  "verb": "Zangoosing"
+ },
+ {
+  "id": 336,
+  "pokemon": "Seviper",
+  "verb": "Sevipering"
+ },
+ {
+  "id": 337,
+  "pokemon": "Lunatone",
+  "verb": "Lunatoning"
+ },
+ {
+  "id": 338,
+  "pokemon": "Solrock",
+  "verb": "Solrocking"
+ },
+ {
+  "id": 339,
+  "pokemon": "Barboach",
+  "verb": "Barboaching"
+ },
+ {
+  "id": 340,
+  "pokemon": "Whiscash",
+  "verb": "Whiscashing"
+ },
+ {
+  "id": 341,
+  "pokemon": "Corphish",
+  "verb": "Corphishing"
+ },
+ {
+  "id": 342,
+  "pokemon": "Crawdaunt",
+  "verb": "Crawdaunting"
+ },
+ {
+  "id": 343,
+  "pokemon": "Baltoy",
+  "verb": "Baltoying"
+ },
+ {
+  "id": 344,
+  "pokemon": "Claydol",
+  "verb": "Claydoling"
+ },
+ {
+  "id": 345,
+  "pokemon": "Lileep",
+  "verb": "Lileeping"
+ },
+ {
+  "id": 346,
+  "pokemon": "Cradily",
+  "verb": "Cradilying"
+ },
+ {
+  "id": 347,
+  "pokemon": "Anorith",
+  "verb": "Anorithing"
+ },
+ {
+  "id": 348,
+  "pokemon": "Armaldo",
+  "verb": "Armaldoing"
+ },
+ {
+  "id": 349,
+  "pokemon": "Feebas",
+  "verb": "Feebasing"
+ },
+ {
+  "id": 350,
+  "pokemon": "Milotic",
+  "verb": "Miloticking"
+ },
+ {
+  "id": 351,
+  "pokemon": "Castform",
+  "verb": "Castforming"
+ },
+ {
+  "id": 352,
+  "pokemon": "Kecleon",
+  "verb": "Kecleoning"
+ },
+ {
+  "id": 353,
+  "pokemon": "Shuppet",
+  "verb": "Shuppetting"
+ },
+ {
+  "id": 354,
+  "pokemon": "Banette",
+  "verb": "Banetting"
+ },
+ {
+  "id": 355,
+  "pokemon": "Duskull",
+  "verb": "Duskulling"
+ },
+ {
+  "id": 356,
+  "pokemon": "Dusclops",
+  "verb": "Dusclopsing"
+ },
+ {
+  "id": 357,
+  "pokemon": "Tropius",
+  "verb": "Tropiusing"
+ },
+ {
+  "id": 358,
+  "pokemon": "Chimecho",
+  "verb": "Chimechoing"
+ },
+ {
+  "id": 359,
+  "pokemon": "Absol",
+  "verb": "Absoling"
+ },
+ {
+  "id": 360,
+  "pokemon": "Wynaut",
+  "verb": "Wynauting"
+ },
+ {
+  "id": 361,
+  "pokemon": "Snorunt",
+  "verb": "Snorunting"
+ },
+ {
+  "id": 362,
+  "pokemon": "Glalie",
+  "verb": "Glalying"
+ },
+ {
+  "id": 363,
+  "pokemon": "Spheal",
+  "verb": "Sphealing"
+ },
+ {
+  "id": 364,
+  "pokemon": "Sealeo",
+  "verb": "Sealeoing"
+ },
+ {
+  "id": 365,
+  "pokemon": "Walrein",
+  "verb": "Walreining"
+ },
+ {
+  "id": 366,
+  "pokemon": "Clamperl",
+  "verb": "Clamperling"
+ },
+ {
+  "id": 367,
+  "pokemon": "Huntail",
+  "verb": "Huntailing"
+ },
+ {
+  "id": 368,
+  "pokemon": "Gorebyss",
+  "verb": "Gorebyssing"
+ },
+ {
+  "id": 369,
+  "pokemon": "Relicanth",
+  "verb": "Relicanthing"
+ },
+ {
+  "id": 370,
+  "pokemon": "Luvdisc",
+  "verb": "Luvdiscing"
+ },
+ {
+  "id": 371,
+  "pokemon": "Bagon",
+  "verb": "Bagoning"
+ },
+ {
+  "id": 372,
+  "pokemon": "Shelgon",
+  "verb": "Shelgoning"
+ },
+ {
+  "id": 373,
+  "pokemon": "Salamence",
+  "verb": "Salamencing"
+ },
+ {
+  "id": 374,
+  "pokemon": "Beldum",
+  "verb": "Belduming"
+ },
+ {
+  "id": 375,
+  "pokemon": "Metang",
+  "verb": "Metanging"
+ },
+ {
+  "id": 376,
+  "pokemon": "Metagross",
+  "verb": "Metagrossing"
+ },
+ {
+  "id": 377,
+  "pokemon": "Regirock",
+  "verb": "Regirocking"
+ },
+ {
+  "id": 378,
+  "pokemon": "Regice",
+  "verb": "Regicing"
+ },
+ {
+  "id": 379,
+  "pokemon": "Registeel",
+  "verb": "Registeeling"
+ },
+ {
+  "id": 380,
+  "pokemon": "Latias",
+  "verb": "Latiasing"
+ },
+ {
+  "id": 381,
+  "pokemon": "Latios",
+  "verb": "Latiosing"
+ },
+ {
+  "id": 382,
+  "pokemon": "Kyogre",
+  "verb": "Kyogring"
+ },
+ {
+  "id": 383,
+  "pokemon": "Groudon",
+  "verb": "Groudoning"
+ },
+ {
+  "id": 384,
+  "pokemon": "Rayquaza",
+  "verb": "Rayquazaing"
+ },
+ {
+  "id": 385,
+  "pokemon": "Jirachi",
+  "verb": "Jirachiing"
+ },
+ {
+  "id": 386,
+  "pokemon": "Deoxys",
+  "verb": "Deoxysing"
+ },
+ {
+  "id": 387,
+  "pokemon": "Turtwig",
+  "verb": "Turtwigging"
+ },
+ {
+  "id": 388,
+  "pokemon": "Grotle",
+  "verb": "Grotling"
+ },
+ {
+  "id": 389,
+  "pokemon": "Torterra",
+  "verb": "Torterraing"
+ },
+ {
+  "id": 390,
+  "pokemon": "Chimchar",
+  "verb": "Chimcharing"
+ },
+ {
+  "id": 391,
+  "pokemon": "Monferno",
+  "verb": "Monfernoing"
+ },
+ {
+  "id": 392,
+  "pokemon": "Infernape",
+  "verb": "Infernaping"
+ },
+ {
+  "id": 393,
+  "pokemon": "Piplup",
+  "verb": "Piplupping"
+ },
+ {
+  "id": 394,
+  "pokemon": "Prinplup",
+  "verb": "Prinplupping"
+ },
+ {
+  "id": 395,
+  "pokemon": "Empoleon",
+  "verb": "Empoleoning"
+ },
+ {
+  "id": 396,
+  "pokemon": "Starly",
+  "verb": "Starlying"
+ },
+ {
+  "id": 397,
+  "pokemon": "Staravia",
+  "verb": "Staraviaing"
+ },
+ {
+  "id": 398,
+  "pokemon": "Staraptor",
+  "verb": "Staraptoring"
+ },
+ {
+  "id": 399,
+  "pokemon": "Bidoof",
+  "verb": "Bidoofing"
+ },
+ {
+  "id": 400,
+  "pokemon": "Bibarel",
+  "verb": "Bibareling"
+ },
+ {
+  "id": 401,
+  "pokemon": "Kricketot",
+  "verb": "Kricketoting"
+ },
+ {
+  "id": 402,
+  "pokemon": "Kricketune",
+  "verb": "Kricketuning"
+ },
+ {
+  "id": 403,
+  "pokemon": "Shinx",
+  "verb": "Shinxing"
+ },
+ {
+  "id": 404,
+  "pokemon": "Luxio",
+  "verb": "Luxioing"
+ },
+ {
+  "id": 405,
+  "pokemon": "Luxray",
+  "verb": "Luxraying"
+ },
+ {
+  "id": 406,
+  "pokemon": "Budew",
+  "verb": "Budewing"
+ },
+ {
+  "id": 407,
+  "pokemon": "Roserade",
+  "verb": "Roserading"
+ },
+ {
+  "id": 408,
+  "pokemon": "Cranidos",
+  "verb": "Cranidosing"
+ },
+ {
+  "id": 409,
+  "pokemon": "Rampardos",
+  "verb": "Rampardosing"
+ },
+ {
+  "id": 410,
+  "pokemon": "Shieldon",
+  "verb": "Shieldoning"
+ },
+ {
+  "id": 411,
+  "pokemon": "Bastiodon",
+  "verb": "Bastiodoning"
+ },
+ {
+  "id": 412,
+  "pokemon": "Burmy",
+  "verb": "Burmying"
+ },
+ {
+  "id": 413,
+  "pokemon": "Wormadam",
+  "verb": "Wormadaming"
+ },
+ {
+  "id": 414,
+  "pokemon": "Mothim",
+  "verb": "Mothiming"
+ },
+ {
+  "id": 415,
+  "pokemon": "Combee",
+  "verb": "Combeeing"
+ },
+ {
+  "id": 416,
+  "pokemon": "Vespiquen",
+  "verb": "Vespiquening"
+ },
+ {
+  "id": 417,
+  "pokemon": "Pachirisu",
+  "verb": "Pachirisuing"
+ },
+ {
+  "id": 418,
+  "pokemon": "Buizel",
+  "verb": "Buizeling"
+ },
+ {
+  "id": 419,
+  "pokemon": "Floatzel",
+  "verb": "Floatzeling"
+ },
+ {
+  "id": 420,
+  "pokemon": "Cherubi",
+  "verb": "Cherubiing"
+ },
+ {
+  "id": 421,
+  "pokemon": "Cherrim",
+  "verb": "Cherriming"
+ },
+ {
+  "id": 422,
+  "pokemon": "Shellos",
+  "verb": "Shellosing"
+ },
+ {
+  "id": 423,
+  "pokemon": "Gastrodon",
+  "verb": "Gastrodoning"
+ },
+ {
+  "id": 424,
+  "pokemon": "Ambipom",
+  "verb": "Ambipoming"
+ },
+ {
+  "id": 425,
+  "pokemon": "Drifloon",
+  "verb": "Driflooning"
+ },
+ {
+  "id": 426,
+  "pokemon": "Drifblim",
+  "verb": "Drifbliming"
+ },
+ {
+  "id": 427,
+  "pokemon": "Buneary",
+  "verb": "Bunearying"
+ },
+ {
+  "id": 428,
+  "pokemon": "Lopunny",
+  "verb": "Lopunnying"
+ },
+ {
+  "id": 429,
+  "pokemon": "Mismagius",
+  "verb": "Mismagiusing"
+ },
+ {
+  "id": 430,
+  "pokemon": "Honchkrow",
+  "verb": "Honchkrowing"
+ },
+ {
+  "id": 431,
+  "pokemon": "Glameow",
+  "verb": "Glameowing"
+ },
+ {
+  "id": 432,
+  "pokemon": "Purugly",
+  "verb": "Puruglying"
+ },
+ {
+  "id": 433,
+  "pokemon": "Chingling",
+  "verb": "Chinglinging"
+ },
+ {
+  "id": 434,
+  "pokemon": "Stunky",
+  "verb": "Stunkying"
+ },
+ {
+  "id": 435,
+  "pokemon": "Skuntank",
+  "verb": "Skuntanking"
+ },
+ {
+  "id": 436,
+  "pokemon": "Bronzor",
+  "verb": "Bronzoring"
+ },
+ {
+  "id": 437,
+  "pokemon": "Bronzong",
+  "verb": "Bronzonging"
+ },
+ {
+  "id": 438,
+  "pokemon": "Bonsly",
+  "verb": "Bonslying"
+ },
+ {
+  "id": 439,
+  "pokemon": "Mime Jr.",
+  "verb": "Miming Jr."
+ },
+ {
+  "id": 440,
+  "pokemon": "Happiny",
+  "verb": "Happinying"
+ },
+ {
+  "id": 441,
+  "pokemon": "Chatot",
+  "verb": "Chatotting"
+ },
+ {
+  "id": 442,
+  "pokemon": "Spiritomb",
+  "verb": "Spiritombing"
+ },
+ {
+  "id": 443,
+  "pokemon": "Gible",
+  "verb": "Gibling"
+ },
+ {
+  "id": 444,
+  "pokemon": "Gabite",
+  "verb": "Gabiting"
+ },
+ {
+  "id": 445,
+  "pokemon": "Garchomp",
+  "verb": "Garchomping"
+ },
+ {
+  "id": 446,
+  "pokemon": "Munchlax",
+  "verb": "Munchlaxing"
+ },
+ {
+  "id": 447,
+  "pokemon": "Riolu",
+  "verb": "Rioluing"
+ },
+ {
+  "id": 448,
+  "pokemon": "Lucario",
+  "verb": "Lucarioing"
+ },
+ {
+  "id": 449,
+  "pokemon": "Hippopotas",
+  "verb": "Hippopotasing"
+ },
+ {
+  "id": 450,
+  "pokemon": "Hippowdon",
+  "verb": "Hippowdoning"
+ },
+ {
+  "id": 451,
+  "pokemon": "Skorupi",
+  "verb": "Skorupiing"
+ },
+ {
+  "id": 452,
+  "pokemon": "Drapion",
+  "verb": "Drapioning"
+ },
+ {
+  "id": 453,
+  "pokemon": "Croagunk",
+  "verb": "Croagunking"
+ },
+ {
+  "id": 454,
+  "pokemon": "Toxicroak",
+  "verb": "Toxicroaking"
+ },
+ {
+  "id": 455,
+  "pokemon": "Carnivine",
+  "verb": "Carnivining"
+ },
+ {
+  "id": 456,
+  "pokemon": "Finneon",
+  "verb": "Finneoning"
+ },
+ {
+  "id": 457,
+  "pokemon": "Lumineon",
+  "verb": "Lumineoning"
+ },
+ {
+  "id": 458,
+  "pokemon": "Mantyke",
+  "verb": "Mantyking"
+ },
+ {
+  "id": 459,
+  "pokemon": "Snover",
+  "verb": "Snovering"
+ },
+ {
+  "id": 460,
+  "pokemon": "Abomasnow",
+  "verb": "Abomasnowing"
+ },
+ {
+  "id": 461,
+  "pokemon": "Weavile",
+  "verb": "Weaviling"
+ },
+ {
+  "id": 462,
+  "pokemon": "Magnezone",
+  "verb": "Magnezoning"
+ },
+ {
+  "id": 463,
+  "pokemon": "Lickilicky",
+  "verb": "Lickilickying"
+ },
+ {
+  "id": 464,
+  "pokemon": "Rhyperior",
+  "verb": "Rhyperioring"
+ },
+ {
+  "id": 465,
+  "pokemon": "Tangrowth",
+  "verb": "Tangrowthing"
+ },
+ {
+  "id": 466,
+  "pokemon": "Electivire",
+  "verb": "Electiviring"
+ },
+ {
+  "id": 467,
+  "pokemon": "Magmortar",
+  "verb": "Magmortaring"
+ },
+ {
+  "id": 468,
+  "pokemon": "Togekiss",
+  "verb": "Togekissing"
+ },
+ {
+  "id": 469,
+  "pokemon": "Yanmega",
+  "verb": "Yanmegaing"
+ },
+ {
+  "id": 470,
+  "pokemon": "Leafeon",
+  "verb": "Leafeoning"
+ },
+ {
+  "id": 471,
+  "pokemon": "Glaceon",
+  "verb": "Glaceoning"
+ },
+ {
+  "id": 472,
+  "pokemon": "Gliscor",
+  "verb": "Gliscoring"
+ },
+ {
+  "id": 473,
+  "pokemon": "Mamoswine",
+  "verb": "Mamoswining"
+ },
+ {
+  "id": 474,
+  "pokemon": "Porygon-Z",
+  "verb": "Porygon-Zing"
+ },
+ {
+  "id": 475,
+  "pokemon": "Gallade",
+  "verb": "Gallading"
+ },
+ {
+  "id": 476,
+  "pokemon": "Probopass",
+  "verb": "Probopassing"
+ },
+ {
+  "id": 477,
+  "pokemon": "Dusknoir",
+  "verb": "Dusknoiring"
+ },
+ {
+  "id": 478,
+  "pokemon": "Froslass",
+  "verb": "Froslassing"
+ },
+ {
+  "id": 479,
+  "pokemon": "Rotom",
+  "verb": "Rotoming"
+ },
+ {
+  "id": 480,
+  "pokemon": "Uxie",
+  "verb": "Uxying"
+ },
+ {
+  "id": 481,
+  "pokemon": "Mesprit",
+  "verb": "Mespritting"
+ },
+ {
+  "id": 482,
+  "pokemon": "Azelf",
+  "verb": "Azelfing"
+ },
+ {
+  "id": 483,
+  "pokemon": "Dialga",
+  "verb": "Dialgaing"
+ },
+ {
+  "id": 484,
+  "pokemon": "Palkia",
+  "verb": "Palkiaing"
+ },
+ {
+  "id": 485,
+  "pokemon": "Heatran",
+  "verb": "Heatraning"
+ },
+ {
+  "id": 486,
+  "pokemon": "Regigigas",
+  "verb": "Regigigasing"
+ },
+ {
+  "id": 487,
+  "pokemon": "Giratina",
+  "verb": "Giratinaing"
+ },
+ {
+  "id": 488,
+  "pokemon": "Cresselia",
+  "verb": "Cresseliaing"
+ },
+ {
+  "id": 489,
+  "pokemon": "Phione",
+  "verb": "Phioning"
+ },
+ {
+  "id": 490,
+  "pokemon": "Manaphy",
+  "verb": "Manaphying"
+ },
+ {
+  "id": 491,
+  "pokemon": "Darkrai",
+  "verb": "Darkraiing"
+ },
+ {
+  "id": 492,
+  "pokemon": "Shaymin",
+  "verb": "Shaymining"
+ },
+ {
+  "id": 493,
+  "pokemon": "Arceus",
+  "verb": "Arceusing"
+ },
+ {
+  "id": 494,
+  "pokemon": "Victini",
+  "verb": "Victiniing"
+ },
+ {
+  "id": 495,
+  "pokemon": "Snivy",
+  "verb": "Snivying"
+ },
+ {
+  "id": 496,
+  "pokemon": "Servine",
+  "verb": "Servining"
+ },
+ {
+  "id": 497,
+  "pokemon": "Serperior",
+  "verb": "Serperioring"
+ },
+ {
+  "id": 498,
+  "pokemon": "Tepig",
+  "verb": "Tepigging"
+ },
+ {
+  "id": 499,
+  "pokemon": "Pignite",
+  "verb": "Pigniting"
+ },
+ {
+  "id": 500,
+  "pokemon": "Emboar",
+  "verb": "Emboaring"
+ },
+ {
+  "id": 501,
+  "pokemon": "Oshawott",
+  "verb": "Oshawotting"
+ },
+ {
+  "id": 502,
+  "pokemon": "Dewott",
+  "verb": "Dewotting"
+ },
+ {
+  "id": 503,
+  "pokemon": "Samurott",
+  "verb": "Samurotting"
+ },
+ {
+  "id": 504,
+  "pokemon": "Patrat",
+  "verb": "Patratting"
+ },
+ {
+  "id": 505,
+  "pokemon": "Watchog",
+  "verb": "Watchogging"
+ },
+ {
+  "id": 506,
+  "pokemon": "Lillipup",
+  "verb": "Lillipuping"
+ },
+ {
+  "id": 507,
+  "pokemon": "Herdier",
+  "verb": "Herdiering"
+ },
+ {
+  "id": 508,
+  "pokemon": "Stoutland",
+  "verb": "Stoutlanding"
+ },
+ {
+  "id": 509,
+  "pokemon": "Purrloin",
+  "verb": "Purrloining"
+ },
+ {
+  "id": 510,
+  "pokemon": "Liepard",
+  "verb": "Lieparding"
+ },
+ {
+  "id": 511,
+  "pokemon": "Pansage",
+  "verb": "Pansaging"
+ },
+ {
+  "id": 512,
+  "pokemon": "Simisage",
+  "verb": "Simisaging"
+ },
+ {
+  "id": 513,
+  "pokemon": "Pansear",
+  "verb": "Pansearing"
+ },
+ {
+  "id": 514,
+  "pokemon": "Simisear",
+  "verb": "Simisearing"
+ },
+ {
+  "id": 515,
+  "pokemon": "Panpour",
+  "verb": "Panpouring"
+ },
+ {
+  "id": 516,
+  "pokemon": "Simipour",
+  "verb": "Simipouring"
+ },
+ {
+  "id": 517,
+  "pokemon": "Munna",
+  "verb": "Munnaing"
+ },
+ {
+  "id": 518,
+  "pokemon": "Musharna",
+  "verb": "Musharnaing"
+ },
+ {
+  "id": 519,
+  "pokemon": "Pidove",
+  "verb": "Pidoving"
+ },
+ {
+  "id": 520,
+  "pokemon": "Tranquill",
+  "verb": "Tranquilling"
+ },
+ {
+  "id": 521,
+  "pokemon": "Unfezant",
+  "verb": "Unfezanting"
+ },
+ {
+  "id": 522,
+  "pokemon": "Blitzle",
+  "verb": "Blitzling"
+ },
+ {
+  "id": 523,
+  "pokemon": "Zebstrika",
+  "verb": "Zebstrikaing"
+ },
+ {
+  "id": 524,
+  "pokemon": "Roggenrola",
+  "verb": "Roggenrolaing"
+ },
+ {
+  "id": 525,
+  "pokemon": "Boldore",
+  "verb": "Boldoring"
+ },
+ {
+  "id": 526,
+  "pokemon": "Gigalith",
+  "verb": "Gigalithing"
+ },
+ {
+  "id": 527,
+  "pokemon": "Woobat",
+  "verb": "Woobatting"
+ },
+ {
+  "id": 528,
+  "pokemon": "Swoobat",
+  "verb": "Swoobatting"
+ },
+ {
+  "id": 529,
+  "pokemon": "Drilbur",
+  "verb": "Drilburing"
+ },
+ {
+  "id": 530,
+  "pokemon": "Excadrill",
+  "verb": "Excadrilling"
+ },
+ {
+  "id": 531,
+  "pokemon": "Audino",
+  "verb": "Audinoing"
+ },
+ {
+  "id": 532,
+  "pokemon": "Timburr",
+  "verb": "Timburring"
+ },
+ {
+  "id": 533,
+  "pokemon": "Gurdurr",
+  "verb": "Gurdurring"
+ },
+ {
+  "id": 534,
+  "pokemon": "Conkeldurr",
+  "verb": "Conkeldurring"
+ },
+ {
+  "id": 535,
+  "pokemon": "Tympole",
+  "verb": "Tympoling"
+ },
+ {
+  "id": 536,
+  "pokemon": "Palpitoad",
+  "verb": "Palpitoading"
+ },
+ {
+  "id": 537,
+  "pokemon": "Seismitoad",
+  "verb": "Seismitoading"
+ },
+ {
+  "id": 538,
+  "pokemon": "Throh",
+  "verb": "Throhing"
+ },
+ {
+  "id": 539,
+  "pokemon": "Sawk",
+  "verb": "Sawking"
+ },
+ {
+  "id": 540,
+  "pokemon": "Sewaddle",
+  "verb": "Sewaddling"
+ },
+ {
+  "id": 541,
+  "pokemon": "Swadloon",
+  "verb": "Swadlooning"
+ },
+ {
+  "id": 542,
+  "pokemon": "Leavanny",
+  "verb": "Leavannying"
+ },
+ {
+  "id": 543,
+  "pokemon": "Venipede",
+  "verb": "Venipeding"
+ },
+ {
+  "id": 544,
+  "pokemon": "Whirlipede",
+  "verb": "Whirlipeding"
+ },
+ {
+  "id": 545,
+  "pokemon": "Scolipede",
+  "verb": "Scolipeding"
+ },
+ {
+  "id": 546,
+  "pokemon": "Cottonee",
+  "verb": "Cottoneeing"
+ },
+ {
+  "id": 547,
+  "pokemon": "Whimsicott",
+  "verb": "Whimsicotting"
+ },
+ {
+  "id": 548,
+  "pokemon": "Petilil",
+  "verb": "Petililing"
+ },
+ {
+  "id": 549,
+  "pokemon": "Lilligant",
+  "verb": "Lilliganting"
+ },
+ {
+  "id": 550,
+  "pokemon": "Basculin",
+  "verb": "Basculining"
+ },
+ {
+  "id": 551,
+  "pokemon": "Sandile",
+  "verb": "Sandiling"
+ },
+ {
+  "id": 552,
+  "pokemon": "Krokorok",
+  "verb": "Krokoroking"
+ },
+ {
+  "id": 553,
+  "pokemon": "Krookodile",
+  "verb": "Krookodiling"
+ },
+ {
+  "id": 554,
+  "pokemon": "Darumaka",
+  "verb": "Darumakaing"
+ },
+ {
+  "id": 555,
+  "pokemon": "Darmanitan",
+  "verb": "Darmanitaning"
+ },
+ {
+  "id": 556,
+  "pokemon": "Maractus",
+  "verb": "Maractusing"
+ },
+ {
+  "id": 557,
+  "pokemon": "Dwebble",
+  "verb": "Dwebbling"
+ },
+ {
+  "id": 558,
+  "pokemon": "Crustle",
+  "verb": "Crustling"
+ },
+ {
+  "id": 559,
+  "pokemon": "Scraggy",
+  "verb": "Scraggying"
+ },
+ {
+  "id": 560,
+  "pokemon": "Scrafty",
+  "verb": "Scraftying"
+ },
+ {
+  "id": 561,
+  "pokemon": "Sigilyph",
+  "verb": "Sigilyphing"
+ },
+ {
+  "id": 562,
+  "pokemon": "Yamask",
+  "verb": "Yamasking"
+ },
+ {
+  "id": 563,
+  "pokemon": "Cofagrigus",
+  "verb": "Cofagrigusing"
+ },
+ {
+  "id": 564,
+  "pokemon": "Tirtouga",
+  "verb": "Tirtougaing"
+ },
+ {
+  "id": 565,
+  "pokemon": "Carracosta",
+  "verb": "Carracostaing"
+ },
+ {
+  "id": 566,
+  "pokemon": "Archen",
+  "verb": "Archening"
+ },
+ {
+  "id": 567,
+  "pokemon": "Archeops",
+  "verb": "Archeopsing"
+ },
+ {
+  "id": 568,
+  "pokemon": "Trubbish",
+  "verb": "Trubbishing"
+ },
+ {
+  "id": 569,
+  "pokemon": "Garbodor",
+  "verb": "Garbodoring"
+ },
+ {
+  "id": 570,
+  "pokemon": "Zorua",
+  "verb": "Zoruaing"
+ },
+ {
+  "id": 571,
+  "pokemon": "Zoroark",
+  "verb": "Zoroarking"
+ },
+ {
+  "id": 572,
+  "pokemon": "Minccino",
+  "verb": "Minccinoing"
+ },
+ {
+  "id": 573,
+  "pokemon": "Cinccino",
+  "verb": "Cinccinoing"
+ },
+ {
+  "id": 574,
+  "pokemon": "Gothita",
+  "verb": "Gothitaing"
+ },
+ {
+  "id": 575,
+  "pokemon": "Gothorita",
+  "verb": "Gothoritaing"
+ },
+ {
+  "id": 576,
+  "pokemon": "Gothitelle",
+  "verb": "Gothitelling"
+ },
+ {
+  "id": 577,
+  "pokemon": "Solosis",
+  "verb": "Solosising"
+ },
+ {
+  "id": 578,
+  "pokemon": "Duosion",
+  "verb": "Duosioning"
+ },
+ {
+  "id": 579,
+  "pokemon": "Reuniclus",
+  "verb": "Reuniclusing"
+ },
+ {
+  "id": 580,
+  "pokemon": "Ducklett",
+  "verb": "Duckletting"
+ },
+ {
+  "id": 581,
+  "pokemon": "Swanna",
+  "verb": "Swannaing"
+ },
+ {
+  "id": 582,
+  "pokemon": "Vanillite",
+  "verb": "Vanilliting"
+ },
+ {
+  "id": 583,
+  "pokemon": "Vanillish",
+  "verb": "Vanillishing"
+ },
+ {
+  "id": 584,
+  "pokemon": "Vanilluxe",
+  "verb": "Vanilluxing"
+ },
+ {
+  "id": 585,
+  "pokemon": "Deerling",
+  "verb": "Deerlinging"
+ },
+ {
+  "id": 586,
+  "pokemon": "Sawsbuck",
+  "verb": "Sawsbucking"
+ },
+ {
+  "id": 587,
+  "pokemon": "Emolga",
+  "verb": "Emolgaing"
+ },
+ {
+  "id": 588,
+  "pokemon": "Karrablast",
+  "verb": "Karrablasting"
+ },
+ {
+  "id": 589,
+  "pokemon": "Escavalier",
+  "verb": "Escavaliering"
+ },
+ {
+  "id": 590,
+  "pokemon": "Foongus",
+  "verb": "Foongusing"
+ },
+ {
+  "id": 591,
+  "pokemon": "Amoonguss",
+  "verb": "Amoongussing"
+ },
+ {
+  "id": 592,
+  "pokemon": "Frillish",
+  "verb": "Frillishing"
+ },
+ {
+  "id": 593,
+  "pokemon": "Jellicent",
+  "verb": "Jellicenting"
+ },
+ {
+  "id": 594,
+  "pokemon": "Alomomola",
+  "verb": "Alomomolaing"
+ },
+ {
+  "id": 595,
+  "pokemon": "Joltik",
+  "verb": "Joltiking"
+ },
+ {
+  "id": 596,
+  "pokemon": "Galvantula",
+  "verb": "Galvantulaing"
+ },
+ {
+  "id": 597,
+  "pokemon": "Ferroseed",
+  "verb": "Ferroseeding"
+ },
+ {
+  "id": 598,
+  "pokemon": "Ferrothorn",
+  "verb": "Ferrothorning"
+ },
+ {
+  "id": 599,
+  "pokemon": "Klink",
+  "verb": "Klinking"
+ },
+ {
+  "id": 600,
+  "pokemon": "Klang",
+  "verb": "Klanging"
+ },
+ {
+  "id": 601,
+  "pokemon": "Klinklang",
+  "verb": "Klinklanging"
+ },
+ {
+  "id": 602,
+  "pokemon": "Tynamo",
+  "verb": "Tynamoing"
+ },
+ {
+  "id": 603,
+  "pokemon": "Eelektrik",
+  "verb": "Eelektriking"
+ },
+ {
+  "id": 604,
+  "pokemon": "Eelektross",
+  "verb": "Eelektrossing"
+ },
+ {
+  "id": 605,
+  "pokemon": "Elgyem",
+  "verb": "Elgyeming"
+ },
+ {
+  "id": 606,
+  "pokemon": "Beheeyem",
+  "verb": "Beheeyeming"
+ },
+ {
+  "id": 607,
+  "pokemon": "Litwick",
+  "verb": "Litwicking"
+ },
+ {
+  "id": 608,
+  "pokemon": "Lampent",
+  "verb": "Lampenting"
+ },
+ {
+  "id": 609,
+  "pokemon": "Chandelure",
+  "verb": "Chandeluring"
+ },
+ {
+  "id": 610,
+  "pokemon": "Axew",
+  "verb": "Axewing"
+ },
+ {
+  "id": 611,
+  "pokemon": "Fraxure",
+  "verb": "Fraxuring"
+ },
+ {
+  "id": 612,
+  "pokemon": "Haxorus",
+  "verb": "Haxorusing"
+ },
+ {
+  "id": 613,
+  "pokemon": "Cubchoo",
+  "verb": "Cubchooing"
+ },
+ {
+  "id": 614,
+  "pokemon": "Beartic",
+  "verb": "Bearticking"
+ },
+ {
+  "id": 615,
+  "pokemon": "Cryogonal",
+  "verb": "Cryogonaling"
+ },
+ {
+  "id": 616,
+  "pokemon": "Shelmet",
+  "verb": "Shelmetting"
+ },
+ {
+  "id": 617,
+  "pokemon": "Accelgor",
+  "verb": "Accelgoring"
+ },
+ {
+  "id": 618,
+  "pokemon": "Stunfisk",
+  "verb": "Stunfisking"
+ },
+ {
+  "id": 619,
+  "pokemon": "Mienfoo",
+  "verb": "Mienfooing"
+ },
+ {
+  "id": 620,
+  "pokemon": "Mienshao",
+  "verb": "Mienshaoing"
+ },
+ {
+  "id": 621,
+  "pokemon": "Druddigon",
+  "verb": "Druddigoning"
+ },
+ {
+  "id": 622,
+  "pokemon": "Golett",
+  "verb": "Goletting"
+ },
+ {
+  "id": 623,
+  "pokemon": "Golurk",
+  "verb": "Golurking"
+ },
+ {
+  "id": 624,
+  "pokemon": "Pawniard",
+  "verb": "Pawniarding"
+ },
+ {
+  "id": 625,
+  "pokemon": "Bisharp",
+  "verb": "Bisharping"
+ },
+ {
+  "id": 626,
+  "pokemon": "Bouffalant",
+  "verb": "Bouffalanting"
+ },
+ {
+  "id": 627,
+  "pokemon": "Rufflet",
+  "verb": "Ruffletting"
+ },
+ {
+  "id": 628,
+  "pokemon": "Braviary",
+  "verb": "Braviarying"
+ },
+ {
+  "id": 629,
+  "pokemon": "Vullaby",
+  "verb": "Vullabying"
+ },
+ {
+  "id": 630,
+  "pokemon": "Mandibuzz",
+  "verb": "Mandibuzzing"
+ },
+ {
+  "id": 631,
+  "pokemon": "Heatmor",
+  "verb": "Heatmoring"
+ },
+ {
+  "id": 632,
+  "pokemon": "Durant",
+  "verb": "Duranting"
+ },
+ {
+  "id": 633,
+  "pokemon": "Deino",
+  "verb": "Deinoing"
+ },
+ {
+  "id": 634,
+  "pokemon": "Zweilous",
+  "verb": "Zweilousing"
+ },
+ {
+  "id": 635,
+  "pokemon": "Hydreigon",
+  "verb": "Hydreigoning"
+ },
+ {
+  "id": 636,
+  "pokemon": "Larvesta",
+  "verb": "Larvestaing"
+ },
+ {
+  "id": 637,
+  "pokemon": "Volcarona",
+  "verb": "Volcaronaing"
+ },
+ {
+  "id": 638,
+  "pokemon": "Cobalion",
+  "verb": "Cobalioning"
+ },
+ {
+  "id": 639,
+  "pokemon": "Terrakion",
+  "verb": "Terrakioning"
+ },
+ {
+  "id": 640,
+  "pokemon": "Virizion",
+  "verb": "Virizioning"
+ },
+ {
+  "id": 641,
+  "pokemon": "Tornadus",
+  "verb": "Tornadusing"
+ },
+ {
+  "id": 642,
+  "pokemon": "Thundurus",
+  "verb": "Thundurusing"
+ },
+ {
+  "id": 643,
+  "pokemon": "Reshiram",
+  "verb": "Reshiraming"
+ },
+ {
+  "id": 644,
+  "pokemon": "Zekrom",
+  "verb": "Zekroming"
+ },
+ {
+  "id": 645,
+  "pokemon": "Landorus",
+  "verb": "Landorusing"
+ },
+ {
+  "id": 646,
+  "pokemon": "Kyurem",
+  "verb": "Kyureming"
+ },
+ {
+  "id": 647,
+  "pokemon": "Keldeo",
+  "verb": "Keldeoing"
+ },
+ {
+  "id": 648,
+  "pokemon": "Meloetta",
+  "verb": "Meloettaing"
+ },
+ {
+  "id": 649,
+  "pokemon": "Genesect",
+  "verb": "Genesecting"
+ },
+ {
+  "id": 650,
+  "pokemon": "Chespin",
+  "verb": "Chespining"
+ },
+ {
+  "id": 651,
+  "pokemon": "Quilladin",
+  "verb": "Quilladining"
+ },
+ {
+  "id": 652,
+  "pokemon": "Chesnaught",
+  "verb": "Chesnaughting"
+ },
+ {
+  "id": 653,
+  "pokemon": "Fennekin",
+  "verb": "Fennekining"
+ },
+ {
+  "id": 654,
+  "pokemon": "Braixen",
+  "verb": "Braixening"
+ },
+ {
+  "id": 655,
+  "pokemon": "Delphox",
+  "verb": "Delphoxing"
+ },
+ {
+  "id": 656,
+  "pokemon": "Froakie",
+  "verb": "Froakying"
+ },
+ {
+  "id": 657,
+  "pokemon": "Frogadier",
+  "verb": "Frogadiering"
+ },
+ {
+  "id": 658,
+  "pokemon": "Greninja",
+  "verb": "Greninjaing"
+ },
+ {
+  "id": 659,
+  "pokemon": "Bunnelby",
+  "verb": "Bunnelbying"
+ },
+ {
+  "id": 660,
+  "pokemon": "Diggersby",
+  "verb": "Diggersbying"
+ },
+ {
+  "id": 661,
+  "pokemon": "Fletchling",
+  "verb": "Fletchlinging"
+ },
+ {
+  "id": 662,
+  "pokemon": "Fletchinder",
+  "verb": "Fletchindering"
+ },
+ {
+  "id": 663,
+  "pokemon": "Talonflame",
+  "verb": "Talonflaming"
+ },
+ {
+  "id": 664,
+  "pokemon": "Scatterbug",
+  "verb": "Scatterbuging"
+ },
+ {
+  "id": 665,
+  "pokemon": "Spewpa",
+  "verb": "Spewpaing"
+ },
+ {
+  "id": 666,
+  "pokemon": "Vivillon",
+  "verb": "Vivilloning"
+ },
+ {
+  "id": 667,
+  "pokemon": "Litleo",
+  "verb": "Litleoing"
+ },
+ {
+  "id": 668,
+  "pokemon": "Pyroar",
+  "verb": "Pyroaring"
+ },
+ {
+  "id": 669,
+  "pokemon": "Flabébé",
+  "verb": "Flabébéing"
+ },
+ {
+  "id": 670,
+  "pokemon": "Floette",
+  "verb": "Floetting"
+ },
+ {
+  "id": 671,
+  "pokemon": "Florges",
+  "verb": "Florgesing"
+ },
+ {
+  "id": 672,
+  "pokemon": "Skiddo",
+  "verb": "Skiddoing"
+ },
+ {
+  "id": 673,
+  "pokemon": "Gogoat",
+  "verb": "Gogoating"
+ },
+ {
+  "id": 674,
+  "pokemon": "Pancham",
+  "verb": "Panchamming"
+ },
+ {
+  "id": 675,
+  "pokemon": "Pangoro",
+  "verb": "Pangoroing"
+ },
+ {
+  "id": 676,
+  "pokemon": "Furfrou",
+  "verb": "Furfrouing"
+ },
+ {
+  "id": 677,
+  "pokemon": "Espurr",
+  "verb": "Espurring"
+ },
+ {
+  "id": 678,
+  "pokemon": "Meowstic",
+  "verb": "Meowsticking"
+ },
+ {
+  "id": 679,
+  "pokemon": "Honedge",
+  "verb": "Honedging"
+ },
+ {
+  "id": 680,
+  "pokemon": "Doublade",
+  "verb": "Doublading"
+ },
+ {
+  "id": 681,
+  "pokemon": "Aegislash",
+  "verb": "Aegislashing"
+ },
+ {
+  "id": 682,
+  "pokemon": "Spritzee",
+  "verb": "Spritzeeing"
+ },
+ {
+  "id": 683,
+  "pokemon": "Aromatisse",
+  "verb": "Aromatissing"
+ },
+ {
+  "id": 684,
+  "pokemon": "Swirlix",
+  "verb": "Swirlixing"
+ },
+ {
+  "id": 685,
+  "pokemon": "Slurpuff",
+  "verb": "Slurpuffing"
+ },
+ {
+  "id": 686,
+  "pokemon": "Inkay",
+  "verb": "Inkaying"
+ },
+ {
+  "id": 687,
+  "pokemon": "Malamar",
+  "verb": "Malamaring"
+ },
+ {
+  "id": 688,
+  "pokemon": "Binacle",
+  "verb": "Binacling"
+ },
+ {
+  "id": 689,
+  "pokemon": "Barbaracle",
+  "verb": "Barbaracling"
+ },
+ {
+  "id": 690,
+  "pokemon": "Skrelp",
+  "verb": "Skrelping"
+ },
+ {
+  "id": 691,
+  "pokemon": "Dragalge",
+  "verb": "Dragalging"
+ },
+ {
+  "id": 692,
+  "pokemon": "Clauncher",
+  "verb": "Claunchering"
+ },
+ {
+  "id": 693,
+  "pokemon": "Clawitzer",
+  "verb": "Clawitzering"
+ },
+ {
+  "id": 694,
+  "pokemon": "Helioptile",
+  "verb": "Helioptiling"
+ },
+ {
+  "id": 695,
+  "pokemon": "Heliolisk",
+  "verb": "Heliolisking"
+ },
+ {
+  "id": 696,
+  "pokemon": "Tyrunt",
+  "verb": "Tyrunting"
+ },
+ {
+  "id": 697,
+  "pokemon": "Tyrantrum",
+  "verb": "Tyrantruming"
+ },
+ {
+  "id": 698,
+  "pokemon": "Amaura",
+  "verb": "Amauraing"
+ },
+ {
+  "id": 699,
+  "pokemon": "Aurorus",
+  "verb": "Aurorusing"
+ },
+ {
+  "id": 700,
+  "pokemon": "Sylveon",
+  "verb": "Sylveoning"
+ },
+ {
+  "id": 701,
+  "pokemon": "Hawlucha",
+  "verb": "Hawluchaing"
+ },
+ {
+  "id": 702,
+  "pokemon": "Dedenne",
+  "verb": "Dedenning"
+ },
+ {
+  "id": 703,
+  "pokemon": "Carbink",
+  "verb": "Carbinking"
+ },
+ {
+  "id": 704,
+  "pokemon": "Goomy",
+  "verb": "Goomying"
+ },
+ {
+  "id": 705,
+  "pokemon": "Sliggoo",
+  "verb": "Sliggooing"
+ },
+ {
+  "id": 706,
+  "pokemon": "Goodra",
+  "verb": "Goodraing"
+ },
+ {
+  "id": 707,
+  "pokemon": "Klefki",
+  "verb": "Klefkiing"
+ },
+ {
+  "id": 708,
+  "pokemon": "Phantump",
+  "verb": "Phantumping"
+ },
+ {
+  "id": 709,
+  "pokemon": "Trevenant",
+  "verb": "Trevenanting"
+ },
+ {
+  "id": 710,
+  "pokemon": "Pumpkaboo",
+  "verb": "Pumpkabooing"
+ },
+ {
+  "id": 711,
+  "pokemon": "Gourgeist",
+  "verb": "Gourgeisting"
+ },
+ {
+  "id": 712,
+  "pokemon": "Bergmite",
+  "verb": "Bergmiting"
+ },
+ {
+  "id": 713,
+  "pokemon": "Avalugg",
+  "verb": "Avalugging"
+ },
+ {
+  "id": 714,
+  "pokemon": "Noibat",
+  "verb": "Noibatting"
+ },
+ {
+  "id": 715,
+  "pokemon": "Noivern",
+  "verb": "Noiverning"
+ },
+ {
+  "id": 716,
+  "pokemon": "Xerneas",
+  "verb": "Xerneasing"
+ },
+ {
+  "id": 717,
+  "pokemon": "Yveltal",
+  "verb": "Yveltaling"
+ },
+ {
+  "id": 718,
+  "pokemon": "Zygarde",
+  "verb": "Zygarding"
+ },
+ {
+  "id": 719,
+  "pokemon": "Diancie",
+  "verb": "Diancying"
+ },
+ {
+  "id": 720,
+  "pokemon": "Hoopa",
+  "verb": "Hoopaing"
+ },
+ {
+  "id": 721,
+  "pokemon": "Volcanion",
+  "verb": "Volcanioning"
+ },
+ {
+  "id": 722,
+  "pokemon": "Rowlet",
+  "verb": "Rowletting"
+ },
+ {
+  "id": 723,
+  "pokemon": "Dartrix",
+  "verb": "Dartrixing"
+ },
+ {
+  "id": 724,
+  "pokemon": "Decidueye",
+  "verb": "Decidueyeing"
+ },
+ {
+  "id": 725,
+  "pokemon": "Litten",
+  "verb": "Littening"
+ },
+ {
+  "id": 726,
+  "pokemon": "Torracat",
+  "verb": "Torracating"
+ },
+ {
+  "id": 727,
+  "pokemon": "Incineroar",
+  "verb": "Incineroaring"
+ },
+ {
+  "id": 728,
+  "pokemon": "Popplio",
+  "verb": "Popplioing"
+ },
+ {
+  "id": 729,
+  "pokemon": "Brionne",
+  "verb": "Brionning"
+ },
+ {
+  "id": 730,
+  "pokemon": "Primarina",
+  "verb": "Primarinaing"
+ },
+ {
+  "id": 731,
+  "pokemon": "Pikipek",
+  "verb": "Pikipeking"
+ },
+ {
+  "id": 732,
+  "pokemon": "Trumbeak",
+  "verb": "Trumbeaking"
+ },
+ {
+  "id": 733,
+  "pokemon": "Toucannon",
+  "verb": "Toucannoning"
+ },
+ {
+  "id": 734,
+  "pokemon": "Yungoos",
+  "verb": "Yungoosing"
+ },
+ {
+  "id": 735,
+  "pokemon": "Gumshoos",
+  "verb": "Gumshoosing"
+ },
+ {
+  "id": 736,
+  "pokemon": "Grubbin",
+  "verb": "Grubbining"
+ },
+ {
+  "id": 737,
+  "pokemon": "Charjabug",
+  "verb": "Charjabuging"
+ },
+ {
+  "id": 738,
+  "pokemon": "Vikavolt",
+  "verb": "Vikavolting"
+ },
+ {
+  "id": 739,
+  "pokemon": "Crabrawler",
+  "verb": "Crabrawlering"
+ },
+ {
+  "id": 740,
+  "pokemon": "Crabominable",
+  "verb": "Crabominabling"
+ },
+ {
+  "id": 741,
+  "pokemon": "Oricorio",
+  "verb": "Oricorioing"
+ },
+ {
+  "id": 742,
+  "pokemon": "Cutiefly",
+  "verb": "Cutieflying"
+ },
+ {
+  "id": 743,
+  "pokemon": "Ribombee",
+  "verb": "Ribombeeing"
+ },
+ {
+  "id": 744,
+  "pokemon": "Rockruff",
+  "verb": "Rockruffing"
+ },
+ {
+  "id": 745,
+  "pokemon": "Lycanroc",
+  "verb": "Lycanrocking"
+ },
+ {
+  "id": 746,
+  "pokemon": "Wishiwashi",
+  "verb": "Wishiwashiing"
+ },
+ {
+  "id": 747,
+  "pokemon": "Mareanie",
+  "verb": "Mareanying"
+ },
+ {
+  "id": 748,
+  "pokemon": "Toxapex",
+  "verb": "Toxapexing"
+ },
+ {
+  "id": 749,
+  "pokemon": "Mudbray",
+  "verb": "Mudbraying"
+ },
+ {
+  "id": 750,
+  "pokemon": "Mudsdale",
+  "verb": "Mudsdaling"
+ },
+ {
+  "id": 751,
+  "pokemon": "Dewpider",
+  "verb": "Dewpidering"
+ },
+ {
+  "id": 752,
+  "pokemon": "Araquanid",
+  "verb": "Araquaniding"
+ },
+ {
+  "id": 753,
+  "pokemon": "Fomantis",
+  "verb": "Fomantising"
+ },
+ {
+  "id": 754,
+  "pokemon": "Lurantis",
+  "verb": "Lurantising"
+ },
+ {
+  "id": 755,
+  "pokemon": "Morelull",
+  "verb": "Morelulling"
+ },
+ {
+  "id": 756,
+  "pokemon": "Shiinotic",
+  "verb": "Shiinoticking"
+ },
+ {
+  "id": 757,
+  "pokemon": "Salandit",
+  "verb": "Salanditing"
+ },
+ {
+  "id": 758,
+  "pokemon": "Salazzle",
+  "verb": "Salazzling"
+ },
+ {
+  "id": 759,
+  "pokemon": "Stufful",
+  "verb": "Stuffuling"
+ },
+ {
+  "id": 760,
+  "pokemon": "Bewear",
+  "verb": "Bewearing"
+ },
+ {
+  "id": 761,
+  "pokemon": "Bounsweet",
+  "verb": "Bounsweeting"
+ },
+ {
+  "id": 762,
+  "pokemon": "Steenee",
+  "verb": "Steeneeing"
+ },
+ {
+  "id": 763,
+  "pokemon": "Tsareena",
+  "verb": "Tsareenaing"
+ },
+ {
+  "id": 764,
+  "pokemon": "Comfey",
+  "verb": "Comfeying"
+ },
+ {
+  "id": 765,
+  "pokemon": "Oranguru",
+  "verb": "Oranguruing"
+ },
+ {
+  "id": 766,
+  "pokemon": "Passimian",
+  "verb": "Passimianing"
+ },
+ {
+  "id": 767,
+  "pokemon": "Wimpod",
+  "verb": "Wimpodding"
+ },
+ {
+  "id": 768,
+  "pokemon": "Golisopod",
+  "verb": "Golisopoding"
+ },
+ {
+  "id": 769,
+  "pokemon": "Sandygast",
+  "verb": "Sandygasting"
+ },
+ {
+  "id": 770,
+  "pokemon": "Palossand",
+  "verb": "Palossanding"
+ },
+ {
+  "id": 771,
+  "pokemon": "Pyukumuku",
+  "verb": "Pyukumukuing"
+ },
+ {
+  "id": 772,
+  "pokemon": "Type: Null",
+  "verb": "Type-Nulling"
+ },
+ {
+  "id": 773,
+  "pokemon": "Silvally",
+  "verb": "Silvallying"
+ },
+ {
+  "id": 774,
+  "pokemon": "Minior",
+  "verb": "Minioring"
+ },
+ {
+  "id": 775,
+  "pokemon": "Komala",
+  "verb": "Komalaing"
+ },
+ {
+  "id": 776,
+  "pokemon": "Turtonator",
+  "verb": "Turtonatoring"
+ },
+ {
+  "id": 777,
+  "pokemon": "Togedemaru",
+  "verb": "Togedemaruing"
+ },
+ {
+  "id": 778,
+  "pokemon": "Mimikyu",
+  "verb": "Mimikyuing"
+ },
+ {
+  "id": 779,
+  "pokemon": "Bruxish",
+  "verb": "Bruxishing"
+ },
+ {
+  "id": 780,
+  "pokemon": "Drampa",
+  "verb": "Drampaing"
+ },
+ {
+  "id": 781,
+  "pokemon": "Dhelmise",
+  "verb": "Dhelmising"
+ },
+ {
+  "id": 782,
+  "pokemon": "Jangmo-o",
+  "verb": "Jangmo-oing"
+ },
+ {
+  "id": 783,
+  "pokemon": "Hakamo-o",
+  "verb": "Hakamo-oing"
+ },
+ {
+  "id": 784,
+  "pokemon": "Kommo-o",
+  "verb": "Kommo-oing"
+ },
+ {
+  "id": 785,
+  "pokemon": "Tapu Koko",
+  "verb": "Tapu Kokoing"
+ },
+ {
+  "id": 786,
+  "pokemon": "Tapu Lele",
+  "verb": "Tapu Leling"
+ },
+ {
+  "id": 787,
+  "pokemon": "Tapu Bulu",
+  "verb": "Tapu Buluing"
+ },
+ {
+  "id": 788,
+  "pokemon": "Tapu Fini",
+  "verb": "Tapu Finiing"
+ },
+ {
+  "id": 789,
+  "pokemon": "Cosmog",
+  "verb": "Cosmogging"
+ },
+ {
+  "id": 790,
+  "pokemon": "Cosmoem",
+  "verb": "Cosmoeming"
+ },
+ {
+  "id": 791,
+  "pokemon": "Solgaleo",
+  "verb": "Solgaleoing"
+ },
+ {
+  "id": 792,
+  "pokemon": "Lunala",
+  "verb": "Lunalaing"
+ },
+ {
+  "id": 793,
+  "pokemon": "Nihilego",
+  "verb": "Nihilegoing"
+ },
+ {
+  "id": 794,
+  "pokemon": "Buzzwole",
+  "verb": "Buzzwoling"
+ },
+ {
+  "id": 795,
+  "pokemon": "Pheromosa",
+  "verb": "Pheromosaing"
+ },
+ {
+  "id": 796,
+  "pokemon": "Xurkitree",
+  "verb": "Xurkitreeing"
+ },
+ {
+  "id": 797,
+  "pokemon": "Celesteela",
+  "verb": "Celesteelaing"
+ },
+ {
+  "id": 798,
+  "pokemon": "Kartana",
+  "verb": "Kartanaing"
+ },
+ {
+  "id": 799,
+  "pokemon": "Guzzlord",
+  "verb": "Guzzlording"
+ },
+ {
+  "id": 800,
+  "pokemon": "Necrozma",
+  "verb": "Necrozmaing"
+ },
+ {
+  "id": 801,
+  "pokemon": "Magearna",
+  "verb": "Magearnaing"
+ },
+ {
+  "id": 802,
+  "pokemon": "Marshadow",
+  "verb": "Marshadowing"
+ },
+ {
+  "id": 803,
+  "pokemon": "Poipole",
+  "verb": "Poipoling"
+ },
+ {
+  "id": 804,
+  "pokemon": "Naganadel",
+  "verb": "Naganadeling"
+ },
+ {
+  "id": 805,
+  "pokemon": "Stakataka",
+  "verb": "Stakatakaing"
+ },
+ {
+  "id": 806,
+  "pokemon": "Blacephalon",
+  "verb": "Blacephaloning"
+ },
+ {
+  "id": 807,
+  "pokemon": "Zeraora",
+  "verb": "Zeraoraing"
+ },
+ {
+  "id": 808,
+  "pokemon": "Meltan",
+  "verb": "Meltaning"
+ },
+ {
+  "id": 809,
+  "pokemon": "Melmetal",
+  "verb": "Melmetaling"
+ },
+ {
+  "id": 810,
+  "pokemon": "Grookey",
+  "verb": "Grookeying"
+ },
+ {
+  "id": 811,
+  "pokemon": "Thwackey",
+  "verb": "Thwackeying"
+ },
+ {
+  "id": 812,
+  "pokemon": "Rillaboom",
+  "verb": "Rillabooming"
+ },
+ {
+  "id": 813,
+  "pokemon": "Scorbunny",
+  "verb": "Scorbunnying"
+ },
+ {
+  "id": 814,
+  "pokemon": "Raboot",
+  "verb": "Rabooting"
+ },
+ {
+  "id": 815,
+  "pokemon": "Cinderace",
+  "verb": "Cinderacing"
+ },
+ {
+  "id": 816,
+  "pokemon": "Sobble",
+  "verb": "Sobbling"
+ },
+ {
+  "id": 817,
+  "pokemon": "Drizzile",
+  "verb": "Drizziling"
+ },
+ {
+  "id": 818,
+  "pokemon": "Inteleon",
+  "verb": "Inteleoning"
+ },
+ {
+  "id": 819,
+  "pokemon": "Skwovet",
+  "verb": "Skwovetting"
+ },
+ {
+  "id": 820,
+  "pokemon": "Greedent",
+  "verb": "Greedenting"
+ },
+ {
+  "id": 821,
+  "pokemon": "Rookidee",
+  "verb": "Rookideeing"
+ },
+ {
+  "id": 822,
+  "pokemon": "Corvisquire",
+  "verb": "Corvisquiring"
+ },
+ {
+  "id": 823,
+  "pokemon": "Corviknight",
+  "verb": "Corviknighting"
+ },
+ {
+  "id": 824,
+  "pokemon": "Blipbug",
+  "verb": "Blipbugging"
+ },
+ {
+  "id": 825,
+  "pokemon": "Dottler",
+  "verb": "Dottlering"
+ },
+ {
+  "id": 826,
+  "pokemon": "Orbeetle",
+  "verb": "Orbeetling"
+ },
+ {
+  "id": 827,
+  "pokemon": "Nickit",
+  "verb": "Nickitting"
+ },
+ {
+  "id": 828,
+  "pokemon": "Thievul",
+  "verb": "Thievuling"
+ },
+ {
+  "id": 829,
+  "pokemon": "Gossifleur",
+  "verb": "Gossifleuring"
+ },
+ {
+  "id": 830,
+  "pokemon": "Eldegoss",
+  "verb": "Eldegossing"
+ },
+ {
+  "id": 831,
+  "pokemon": "Wooloo",
+  "verb": "Woolooing"
+ },
+ {
+  "id": 832,
+  "pokemon": "Dubwool",
+  "verb": "Dubwooling"
+ },
+ {
+  "id": 833,
+  "pokemon": "Chewtle",
+  "verb": "Chewtling"
+ },
+ {
+  "id": 834,
+  "pokemon": "Drednaw",
+  "verb": "Drednawing"
+ },
+ {
+  "id": 835,
+  "pokemon": "Yamper",
+  "verb": "Yampering"
+ },
+ {
+  "id": 836,
+  "pokemon": "Boltund",
+  "verb": "Boltunding"
+ },
+ {
+  "id": 837,
+  "pokemon": "Rolycoly",
+  "verb": "Rolycolying"
+ },
+ {
+  "id": 838,
+  "pokemon": "Carkol",
+  "verb": "Carkoling"
+ },
+ {
+  "id": 839,
+  "pokemon": "Coalossal",
+  "verb": "Coalossaling"
+ },
+ {
+  "id": 840,
+  "pokemon": "Applin",
+  "verb": "Applining"
+ },
+ {
+  "id": 841,
+  "pokemon": "Flapple",
+  "verb": "Flappling"
+ },
+ {
+  "id": 842,
+  "pokemon": "Appletun",
+  "verb": "Appletuning"
+ },
+ {
+  "id": 843,
+  "pokemon": "Silicobra",
+  "verb": "Silicobraing"
+ },
+ {
+  "id": 844,
+  "pokemon": "Sandaconda",
+  "verb": "Sandacondaing"
+ },
+ {
+  "id": 845,
+  "pokemon": "Cramorant",
+  "verb": "Cramoranting"
+ },
+ {
+  "id": 846,
+  "pokemon": "Arrokuda",
+  "verb": "Arrokudaing"
+ },
+ {
+  "id": 847,
+  "pokemon": "Barraskewda",
+  "verb": "Barraskewdaing"
+ },
+ {
+  "id": 848,
+  "pokemon": "Toxel",
+  "verb": "Toxeling"
+ },
+ {
+  "id": 849,
+  "pokemon": "Toxtricity",
+  "verb": "Toxtricitying"
+ },
+ {
+  "id": 850,
+  "pokemon": "Sizzlipede",
+  "verb": "Sizzlipeding"
+ },
+ {
+  "id": 851,
+  "pokemon": "Centiskorch",
+  "verb": "Centiskorching"
+ },
+ {
+  "id": 852,
+  "pokemon": "Clobbopus",
+  "verb": "Clobbopusing"
+ },
+ {
+  "id": 853,
+  "pokemon": "Grapploct",
+  "verb": "Grapplocting"
+ },
+ {
+  "id": 854,
+  "pokemon": "Sinistea",
+  "verb": "Sinisteaing"
+ },
+ {
+  "id": 855,
+  "pokemon": "Polteageist",
+  "verb": "Polteageisting"
+ },
+ {
+  "id": 856,
+  "pokemon": "Hatenna",
+  "verb": "Hatennaing"
+ },
+ {
+  "id": 857,
+  "pokemon": "Hattrem",
+  "verb": "Hattreming"
+ },
+ {
+  "id": 858,
+  "pokemon": "Hatterene",
+  "verb": "Hatterening"
+ },
+ {
+  "id": 859,
+  "pokemon": "Impidimp",
+  "verb": "Impidimping"
+ },
+ {
+  "id": 860,
+  "pokemon": "Morgrem",
+  "verb": "Morgreming"
+ },
+ {
+  "id": 861,
+  "pokemon": "Grimmsnarl",
+  "verb": "Grimmsnarling"
+ },
+ {
+  "id": 862,
+  "pokemon": "Obstagoon",
+  "verb": "Obstagooning"
+ },
+ {
+  "id": 863,
+  "pokemon": "Perrserker",
+  "verb": "Perrserkering"
+ },
+ {
+  "id": 864,
+  "pokemon": "Cursola",
+  "verb": "Cursolaing"
+ },
+ {
+  "id": 865,
+  "pokemon": "Sirfetch’d",
+  "verb": "Sirfetch'ding"
+ },
+ {
+  "id": 866,
+  "pokemon": "Mr. Rime",
+  "verb": "Mr. Riming"
+ },
+ {
+  "id": 867,
+  "pokemon": "Runerigus",
+  "verb": "Runerigusing"
+ },
+ {
+  "id": 868,
+  "pokemon": "Milcery",
+  "verb": "Milcerying"
+ },
+ {
+  "id": 869,
+  "pokemon": "Alcremie",
+  "verb": "Alcremying"
+ },
+ {
+  "id": 870,
+  "pokemon": "Falinks",
+  "verb": "Falinksing"
+ },
+ {
+  "id": 871,
+  "pokemon": "Pincurchin",
+  "verb": "Pincurchining"
+ },
+ {
+  "id": 872,
+  "pokemon": "Snom",
+  "verb": "Snoming"
+ },
+ {
+  "id": 873,
+  "pokemon": "Frosmoth",
+  "verb": "Frosmothing"
+ },
+ {
+  "id": 874,
+  "pokemon": "Stonjourner",
+  "verb": "Stonjournering"
+ },
+ {
+  "id": 875,
+  "pokemon": "Eiscue",
+  "verb": "Eiscueing"
+ },
+ {
+  "id": 876,
+  "pokemon": "Indeedee",
+  "verb": "Indeedeeing"
+ },
+ {
+  "id": 877,
+  "pokemon": "Morpeko",
+  "verb": "Morpekoing"
+ },
+ {
+  "id": 878,
+  "pokemon": "Cufant",
+  "verb": "Cufanting"
+ },
+ {
+  "id": 879,
+  "pokemon": "Copperajah",
+  "verb": "Copperajahing"
+ },
+ {
+  "id": 880,
+  "pokemon": "Dracozolt",
+  "verb": "Dracozolting"
+ },
+ {
+  "id": 881,
+  "pokemon": "Arctozolt",
+  "verb": "Arctozolting"
+ },
+ {
+  "id": 882,
+  "pokemon": "Dracovish",
+  "verb": "Dracovishing"
+ },
+ {
+  "id": 883,
+  "pokemon": "Arctovish",
+  "verb": "Arctovishing"
+ },
+ {
+  "id": 884,
+  "pokemon": "Duraludon",
+  "verb": "Duraludoning"
+ },
+ {
+  "id": 885,
+  "pokemon": "Dreepy",
+  "verb": "Dreepying"
+ },
+ {
+  "id": 886,
+  "pokemon": "Drakloak",
+  "verb": "Drakloaking"
+ },
+ {
+  "id": 887,
+  "pokemon": "Dragapult",
+  "verb": "Dragapulting"
+ },
+ {
+  "id": 888,
+  "pokemon": "Zacian",
+  "verb": "Zacianing"
+ },
+ {
+  "id": 889,
+  "pokemon": "Zamazenta",
+  "verb": "Zamazentaing"
+ },
+ {
+  "id": 890,
+  "pokemon": "Eternatus",
+  "verb": "Eternatusing"
+ },
+ {
+  "id": 891,
+  "pokemon": "Kubfu",
+  "verb": "Kubfuing"
+ },
+ {
+  "id": 892,
+  "pokemon": "Urshifu",
+  "verb": "Urshifuing"
+ },
+ {
+  "id": 893,
+  "pokemon": "Zarude",
+  "verb": "Zaruding"
+ },
+ {
+  "id": 894,
+  "pokemon": "Regieleki",
+  "verb": "Regielekiing"
+ },
+ {
+  "id": 895,
+  "pokemon": "Regidrago",
+  "verb": "Regidragoing"
+ },
+ {
+  "id": 896,
+  "pokemon": "Glastrier",
+  "verb": "Glastriering"
+ },
+ {
+  "id": 897,
+  "pokemon": "Spectrier",
+  "verb": "Spectriering"
+ },
+ {
+  "id": 898,
+  "pokemon": "Calyrex",
+  "verb": "Calyrexing"
+ },
+ {
+  "id": 899,
+  "pokemon": "Wyrdeer",
+  "verb": "Wyrdeering"
+ },
+ {
+  "id": 900,
+  "pokemon": "Kleavor",
+  "verb": "Kleavoring"
+ },
+ {
+  "id": 901,
+  "pokemon": "Ursaluna",
+  "verb": "Ursalunaing"
+ },
+ {
+  "id": 902,
+  "pokemon": "Basculegion",
+  "verb": "Basculegioning"
+ },
+ {
+  "id": 903,
+  "pokemon": "Sneasler",
+  "verb": "Sneaslering"
+ },
+ {
+  "id": 904,
+  "pokemon": "Overqwil",
+  "verb": "Overqwiling"
+ },
+ {
+  "id": 905,
+  "pokemon": "Enamorus",
+  "verb": "Enamorusing"
+ },
+ {
+  "id": 906,
+  "pokemon": "Sprigatito",
+  "verb": "Sprigatitoing"
+ },
+ {
+  "id": 907,
+  "pokemon": "Floragato",
+  "verb": "Floragatoing"
+ },
+ {
+  "id": 908,
+  "pokemon": "Meowscarada",
+  "verb": "Meowscaradaing"
+ },
+ {
+  "id": 909,
+  "pokemon": "Fuecoco",
+  "verb": "Fuecocoing"
+ },
+ {
+  "id": 910,
+  "pokemon": "Crocalor",
+  "verb": "Crocaloring"
+ },
+ {
+  "id": 911,
+  "pokemon": "Skeledirge",
+  "verb": "Skeledirging"
+ },
+ {
+  "id": 912,
+  "pokemon": "Quaxly",
+  "verb": "Quaxlying"
+ },
+ {
+  "id": 913,
+  "pokemon": "Quaxwell",
+  "verb": "Quaxwelling"
+ },
+ {
+  "id": 914,
+  "pokemon": "Quaquaval",
+  "verb": "Quaquavaling"
+ },
+ {
+  "id": 915,
+  "pokemon": "Lechonk",
+  "verb": "Lechonking"
+ },
+ {
+  "id": 916,
+  "pokemon": "Oinkologne",
+  "verb": "Oinkologning"
+ },
+ {
+  "id": 917,
+  "pokemon": "Tarountula",
+  "verb": "Tarountulaing"
+ },
+ {
+  "id": 918,
+  "pokemon": "Spidops",
+  "verb": "Spidopsing"
+ },
+ {
+  "id": 919,
+  "pokemon": "Nymble",
+  "verb": "Nymbling"
+ },
+ {
+  "id": 920,
+  "pokemon": "Lokix",
+  "verb": "Lokixing"
+ },
+ {
+  "id": 921,
+  "pokemon": "Pawmi",
+  "verb": "Pawmiing"
+ },
+ {
+  "id": 922,
+  "pokemon": "Pawmo",
+  "verb": "Pawmoing"
+ },
+ {
+  "id": 923,
+  "pokemon": "Pawmot",
+  "verb": "Pawmotting"
+ },
+ {
+  "id": 924,
+  "pokemon": "Tandemaus",
+  "verb": "Tandemausing"
+ },
+ {
+  "id": 925,
+  "pokemon": "Maushold",
+  "verb": "Mausholding"
+ },
+ {
+  "id": 926,
+  "pokemon": "Fidough",
+  "verb": "Fidoughing"
+ },
+ {
+  "id": 927,
+  "pokemon": "Dachsbun",
+  "verb": "Dachsbunning"
+ },
+ {
+  "id": 928,
+  "pokemon": "Smoliv",
+  "verb": "Smoliving"
+ },
+ {
+  "id": 929,
+  "pokemon": "Dolliv",
+  "verb": "Dolliving"
+ },
+ {
+  "id": 930,
+  "pokemon": "Arboliva",
+  "verb": "Arbolivaing"
+ },
+ {
+  "id": 931,
+  "pokemon": "Squawkabilly",
+  "verb": "Squawkabillying"
+ },
+ {
+  "id": 932,
+  "pokemon": "Nacli",
+  "verb": "Nacliing"
+ },
+ {
+  "id": 933,
+  "pokemon": "Naclstack",
+  "verb": "Naclstacking"
+ },
+ {
+  "id": 934,
+  "pokemon": "Garganacl",
+  "verb": "Garganacling"
+ },
+ {
+  "id": 935,
+  "pokemon": "Charcadet",
+  "verb": "Charcadeting"
+ },
+ {
+  "id": 936,
+  "pokemon": "Armarouge",
+  "verb": "Armarouging"
+ },
+ {
+  "id": 937,
+  "pokemon": "Ceruledge",
+  "verb": "Ceruledging"
+ },
+ {
+  "id": 938,
+  "pokemon": "Tadbulb",
+  "verb": "Tadbulbing"
+ },
+ {
+  "id": 939,
+  "pokemon": "Bellibolt",
+  "verb": "Bellibolting"
+ },
+ {
+  "id": 940,
+  "pokemon": "Wattrel",
+  "verb": "Wattreling"
+ },
+ {
+  "id": 941,
+  "pokemon": "Kilowattrel",
+  "verb": "Kilowattreling"
+ },
+ {
+  "id": 942,
+  "pokemon": "Maschiff",
+  "verb": "Maschiffing"
+ },
+ {
+  "id": 943,
+  "pokemon": "Mabosstiff",
+  "verb": "Mabosstiffing"
+ },
+ {
+  "id": 944,
+  "pokemon": "Shroodle",
+  "verb": "Shroodling"
+ },
+ {
+  "id": 945,
+  "pokemon": "Grafaiai",
+  "verb": "Grafaiaiing"
+ },
+ {
+  "id": 946,
+  "pokemon": "Bramblin",
+  "verb": "Bramblining"
+ },
+ {
+  "id": 947,
+  "pokemon": "Brambleghast",
+  "verb": "Brambleghasting"
+ },
+ {
+  "id": 948,
+  "pokemon": "Toedscool",
+  "verb": "Toedscooling"
+ },
+ {
+  "id": 949,
+  "pokemon": "Toedscruel",
+  "verb": "Toedscrueling"
+ },
+ {
+  "id": 950,
+  "pokemon": "Klawf",
+  "verb": "Klawfing"
+ },
+ {
+  "id": 951,
+  "pokemon": "Capsakid",
+  "verb": "Capsakiding"
+ },
+ {
+  "id": 952,
+  "pokemon": "Scovillain",
+  "verb": "Scovillaining"
+ },
+ {
+  "id": 953,
+  "pokemon": "Rellor",
+  "verb": "Relloring"
+ },
+ {
+  "id": 954,
+  "pokemon": "Rabsca",
+  "verb": "Rabscaing"
+ },
+ {
+  "id": 955,
+  "pokemon": "Flittle",
+  "verb": "Flittling"
+ },
+ {
+  "id": 956,
+  "pokemon": "Espathra",
+  "verb": "Espathraing"
+ },
+ {
+  "id": 957,
+  "pokemon": "Tinkatink",
+  "verb": "Tinkatinking"
+ },
+ {
+  "id": 958,
+  "pokemon": "Tinkatuff",
+  "verb": "Tinkatuffing"
+ },
+ {
+  "id": 959,
+  "pokemon": "Tinkaton",
+  "verb": "Tinkatoning"
+ },
+ {
+  "id": 960,
+  "pokemon": "Wiglett",
+  "verb": "Wigletting"
+ },
+ {
+  "id": 961,
+  "pokemon": "Wugtrio",
+  "verb": "Wugtrioing"
+ },
+ {
+  "id": 962,
+  "pokemon": "Bombirdier",
+  "verb": "Bombirdiering"
+ },
+ {
+  "id": 963,
+  "pokemon": "Finizen",
+  "verb": "Finizening"
+ },
+ {
+  "id": 964,
+  "pokemon": "Palafin",
+  "verb": "Palafining"
+ },
+ {
+  "id": 965,
+  "pokemon": "Varoom",
+  "verb": "Varooming"
+ },
+ {
+  "id": 966,
+  "pokemon": "Revavroom",
+  "verb": "Revavrooming"
+ },
+ {
+  "id": 967,
+  "pokemon": "Cyclizar",
+  "verb": "Cyclizaring"
+ },
+ {
+  "id": 968,
+  "pokemon": "Orthworm",
+  "verb": "Orthworming"
+ },
+ {
+  "id": 969,
+  "pokemon": "Glimmet",
+  "verb": "Glimmetting"
+ },
+ {
+  "id": 970,
+  "pokemon": "Glimmora",
+  "verb": "Glimmoraing"
+ },
+ {
+  "id": 971,
+  "pokemon": "Greavard",
+  "verb": "Greavarding"
+ },
+ {
+  "id": 972,
+  "pokemon": "Houndstone",
+  "verb": "Houndstoning"
+ },
+ {
+  "id": 973,
+  "pokemon": "Flamigo",
+  "verb": "Flamigoing"
+ },
+ {
+  "id": 974,
+  "pokemon": "Cetoddle",
+  "verb": "Cetoddling"
+ },
+ {
+  "id": 975,
+  "pokemon": "Cetitan",
+  "verb": "Cetitaning"
+ },
+ {
+  "id": 976,
+  "pokemon": "Veluza",
+  "verb": "Veluzaing"
+ },
+ {
+  "id": 977,
+  "pokemon": "Dondozo",
+  "verb": "Dondozoing"
+ },
+ {
+  "id": 978,
+  "pokemon": "Tatsugiri",
+  "verb": "Tatsugiriing"
+ },
+ {
+  "id": 979,
+  "pokemon": "Annihilape",
+  "verb": "Annihilaping"
+ },
+ {
+  "id": 980,
+  "pokemon": "Clodsire",
+  "verb": "Clodsiring"
+ },
+ {
+  "id": 981,
+  "pokemon": "Farigiraf",
+  "verb": "Farigirafing"
+ },
+ {
+  "id": 982,
+  "pokemon": "Dudunsparce",
+  "verb": "Dudunsparcing"
+ },
+ {
+  "id": 983,
+  "pokemon": "Kingambit",
+  "verb": "Kingambiting"
+ },
+ {
+  "id": 984,
+  "pokemon": "Great Tusk",
+  "verb": "Great Tusking"
+ },
+ {
+  "id": 985,
+  "pokemon": "Scream Tail",
+  "verb": "Scream Tailing"
+ },
+ {
+  "id": 986,
+  "pokemon": "Brute Bonnet",
+  "verb": "Brute Bonnetting"
+ },
+ {
+  "id": 987,
+  "pokemon": "Flutter Mane",
+  "verb": "Flutter Maning"
+ },
+ {
+  "id": 988,
+  "pokemon": "Slither Wing",
+  "verb": "Slither Winging"
+ },
+ {
+  "id": 989,
+  "pokemon": "Sandy Shocks",
+  "verb": "Sandy Shocksing"
+ },
+ {
+  "id": 990,
+  "pokemon": "Iron Treads",
+  "verb": "Iron Treadsing"
+ },
+ {
+  "id": 991,
+  "pokemon": "Iron Bundle",
+  "verb": "Iron Bundling"
+ },
+ {
+  "id": 992,
+  "pokemon": "Iron Hands",
+  "verb": "Iron Handsing"
+ },
+ {
+  "id": 993,
+  "pokemon": "Iron Jugulis",
+  "verb": "Iron Jugulising"
+ },
+ {
+  "id": 994,
+  "pokemon": "Iron Moth",
+  "verb": "Iron Mothing"
+ },
+ {
+  "id": 995,
+  "pokemon": "Iron Thorns",
+  "verb": "Iron Thornsing"
+ },
+ {
+  "id": 996,
+  "pokemon": "Frigibax",
+  "verb": "Frigibaxing"
+ },
+ {
+  "id": 997,
+  "pokemon": "Arctibax",
+  "verb": "Arctibaxing"
+ },
+ {
+  "id": 998,
+  "pokemon": "Baxcalibur",
+  "verb": "Baxcaliburing"
+ },
+ {
+  "id": 999,
+  "pokemon": "Gimmighoul",
+  "verb": "Gimmighouling"
+ },
+ {
+  "id": 1000,
+  "pokemon": "Gholdengo",
+  "verb": "Gholdengoing"
+ },
+ {
+  "id": 1001,
+  "pokemon": "Wo-Chien",
+  "verb": "Wo-Chiening"
+ },
+ {
+  "id": 1002,
+  "pokemon": "Chien-Pao",
+  "verb": "Chien-Paoing"
+ },
+ {
+  "id": 1003,
+  "pokemon": "Ting-Lu",
+  "verb": "Ting-Luing"
+ },
+ {
+  "id": 1004,
+  "pokemon": "Chi-Yu",
+  "verb": "Chi-Yuing"
+ },
+ {
+  "id": 1005,
+  "pokemon": "Roaring Moon",
+  "verb": "Roaring Mooning"
+ },
+ {
+  "id": 1006,
+  "pokemon": "Iron Valiant",
+  "verb": "Iron Valianting"
+ },
+ {
+  "id": 1007,
+  "pokemon": "Koraidon",
+  "verb": "Koraidoning"
+ },
+ {
+  "id": 1008,
+  "pokemon": "Miraidon",
+  "verb": "Miraidoning"
+ },
+ {
+  "id": 1009,
+  "pokemon": "Walking Wake",
+  "verb": "Walking Waking"
+ },
+ {
+  "id": 1010,
+  "pokemon": "Iron Leaves",
+  "verb": "Iron Leavesing"
+ },
+ {
+  "id": 1011,
+  "pokemon": "Dipplin",
+  "verb": "Dipplining"
+ },
+ {
+  "id": 1012,
+  "pokemon": "Poltchageist",
+  "verb": "Poltchageisting"
+ },
+ {
+  "id": 1013,
+  "pokemon": "Sinistcha",
+  "verb": "Sinistchaing"
+ },
+ {
+  "id": 1014,
+  "pokemon": "Okidogi",
+  "verb": "Okidogiing"
+ },
+ {
+  "id": 1015,
+  "pokemon": "Munkidori",
+  "verb": "Munkidoriing"
+ },
+ {
+  "id": 1016,
+  "pokemon": "Fezandipiti",
+  "verb": "Fezandipitiing"
+ },
+ {
+  "id": 1017,
+  "pokemon": "Ogerpon",
+  "verb": "Ogerponing"
+ },
+ {
+  "id": 1018,
+  "pokemon": "Archaludon",
+  "verb": "Archaludoning"
+ },
+ {
+  "id": 1019,
+  "pokemon": "Hydrapple",
+  "verb": "Hydrappling"
+ },
+ {
+  "id": 1020,
+  "pokemon": "Gouging Fire",
+  "verb": "Gouging Firing"
+ },
+ {
+  "id": 1021,
+  "pokemon": "Raging Bolt",
+  "verb": "Raging Bolting"
+ },
+ {
+  "id": 1022,
+  "pokemon": "Iron Boulder",
+  "verb": "Iron Bouldering"
+ },
+ {
+  "id": 1023,
+  "pokemon": "Iron Crown",
+  "verb": "Iron Crowning"
+ },
+ {
+  "id": 1024,
+  "pokemon": "Terapagos",
+  "verb": "Terapagosing"
+ },
+ {
+  "id": 1025,
+  "pokemon": "Pecharunt",
+  "verb": "Pecharunting"
+ }
+]

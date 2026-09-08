@@ -1,0 +1,15 @@
+{
+  "name": "pokespin",
+  "owner": {
+    "name": "Shuki"
+  },
+  "plugins": [
+    {
+      "name": "pokespin",
+      "source": "./",
+      "description": "Replace Claude Code's thinking-spinner verbs with all 1025 Pokemon.",
+      "version": "1.0.0"
+    }
+  ],
+  "description": "Pokemon-themed cosmetics for Claude Code."
+}
