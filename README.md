@@ -42,8 +42,17 @@ Adds a `/pokespin` command inside Claude Code:
 ```
 /plugin marketplace add ShukiB/pokespin
 /plugin install pokespin@pokespin
-/pokespin install
 ```
+
+Two lines: a `SessionStart` hook installs **generation 1** the first time the
+plugin loads, so you only restart once more to see them. The hook is
+deliberately timid -- it runs **at most once per machine**, never overwrites a
+`spinnerVerbs` you set yourself, and swallows every error (including a corrupt
+settings.json) so it can never break session startup. Once it has run,
+`/pokespin uninstall` stays uninstalled; it will not reinstall itself.
+
+Want a different generation, or no hook at all? Run `/pokespin install --gen all`
+after, or use the `submission` branch, which ships without the hook.
 
 ### Manual
 
