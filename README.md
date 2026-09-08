@@ -131,20 +131,17 @@ Rebuild after editing rules: `python build.py`
 
 ## Hosting your own copy
 
-Everything is a static file, so any host that serves raw text works.
+Everything is a static file, so any host that serves raw text works. For GitHub:
 
-1. Create an empty **public** GitHub repo named `pokespin`.
-2. Replace the `OWNER` placeholder with your GitHub username:
+1. Create an empty **public** repo named `pokespin` (no README, no license --
+   this repo already has them).
+2. Run:
    ```bash
-   sed -i 's/OWNER/your-username/g' install.sh install.ps1 README.md
+   sh publish.sh <your-github-username>
    ```
-3. Push:
-   ```bash
-   git remote add origin https://github.com/your-username/pokespin.git
-   git push -u origin main
-   ```
+   That rewrites the install URLs, commits, and pushes.
 
-The one-liners and `/plugin marketplace add your-username/pokespin` then work
+The one-liners and `/plugin marketplace add <your-username>/pokespin` then work
 for anyone, with no release step and no build artifacts to publish.
 
 Users can pin a fork or branch without editing anything:
