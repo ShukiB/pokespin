@@ -4,24 +4,71 @@ Replaces Claude Code's thinking-spinner verbs ("Pondering…", "Noodling…") wi
 all **1025 Pokémon**, inflected as verbs: *Mewing…*, *Charizarding…*,
 *Zubatting…*, *Mr. Miming…*
 
-## Install (any machine)
+## Install
 
-Requires Python 3.8+ and nothing else. Copy `dist/pokespin.py` anywhere, then:
+**Requires:** Python 3.8+ and Claude Code >= 2.1.x. Nothing else.
+
+### One-liner (recommended)
+
+macOS / Linux / Git Bash:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/OWNER/pokespin/main/install.sh | sh
+```
+
+Windows PowerShell:
+
+```powershell
+irm https://raw.githubusercontent.com/OWNER/pokespin/main/install.ps1 | iex
+```
+
+Passing arguments through the pipe:
+
+```bash
+curl -fsSL .../install.sh | sh -s -- install --mode append
+```
+```powershell
+$env:POKESPIN_ARGS = "install --mode append"; irm .../install.ps1 | iex
+```
+
+### As a Claude Code plugin
+
+Adds a `/pokespin` command inside Claude Code:
+
+```
+/plugin marketplace add OWNER/pokespin
+/plugin install pokespin@pokespin
+/pokespin install
+```
+
+### Manual
+
+Copy `dist/pokespin.py` anywhere (it is fully self-contained) and run it:
 
 ```bash
 python pokespin.py install       # replace the built-in verbs
-python pokespin.py install --mode append   # keep the defaults too, 1145 total
+python pokespin.py install --mode append   # keep the defaults too
 python pokespin.py status
 python pokespin.py preview -n 20
 python pokespin.py uninstall
 ```
 
-Restart Claude Code afterwards — settings are read once at startup.
+### For a whole team, without anyone installing anything
 
-Flags: `--scope user|project` (default `user` = `~/.claude/settings.json`;
-`project` = `./.claude/settings.json`), `--dry-run`, `--refresh` (re-pull
-species live from PokéAPI instead of the embedded list — needs `gerund.py`
-beside it; useful when Gen 10 lands).
+`spinnerVerbs` is honored from project settings, so commit it once:
+
+```bash
+python pokespin.py install --scope project   # writes ./.claude/settings.json
+git commit -am "Pokemon spinner for everyone on this repo"
+```
+
+Everyone who works in that repo gets it; nothing to install per machine.
+
+Restart Claude Code after any of these — settings are read once at startup.
+
+Flags: `--scope user|project` (default `user` = `~/.claude/settings.json`),
+`--dry-run`, `--refresh` (re-pull species live from PokeAPI instead of the
+embedded list -- needs `gerund.py` beside it; useful when Gen 10 lands).
 
 The installer timestamps a backup of `settings.json` before every write, writes
 atomically via a temp file + rename, and preserves all your other settings keys.
@@ -69,6 +116,10 @@ on any console codepage.
 ## Repo layout
 
 ```
+.claude-plugin/     plugin + marketplace manifests (validated)
+commands/           the /pokespin slash command
+install.sh          curl | sh one-liner
+install.ps1         irm | iex one-liner
 fetch_species.py   one-time pull + integrity check  -> data/species.json
 gerund.py          the inflection rules
 build.py           species + rules                  -> data/verbs.json, dist/pokespin.py
@@ -77,3 +128,24 @@ dist/pokespin.py   the self-contained installer (this is what you ship)
 ```
 
 Rebuild after editing rules: `python build.py`
+
+## Hosting your own copy
+
+Everything is a static file, so any host that serves raw text works.
+
+1. Create an empty **public** GitHub repo named `pokespin`.
+2. Replace the `OWNER` placeholder with your GitHub username:
+   ```bash
+   sed -i 's/OWNER/your-username/g' install.sh install.ps1 README.md
+   ```
+3. Push:
+   ```bash
+   git remote add origin https://github.com/your-username/pokespin.git
+   git push -u origin main
+   ```
+
+The one-liners and `/plugin marketplace add your-username/pokespin` then work
+for anyone, with no release step and no build artifacts to publish.
+
+Users can pin a fork or branch without editing anything:
+`POKESPIN_REPO=someone/pokespin POKESPIN_REF=v1.0.0 sh install.sh`
