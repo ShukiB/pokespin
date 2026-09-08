@@ -93,9 +93,10 @@ Everyone who works in that repo gets it; nothing to install per machine.
 Restart Claude Code after any of these — settings are read once at startup.
 
 Flags: `--scope user|project` (default `user` = `~/.claude/settings.json`),
-`--gen`, `--dry-run`, `autoinstall` (the guarded one-shot the hook calls, which
-installs generation 1), `--refresh` (re-pull species live from PokeAPI instead of the
-embedded list -- needs `gerund.py` beside it; useful when Gen 10 lands).
+`--gen SPEC`, `--mode replace|append`, `--dry-run`, and `--refresh` (re-pull
+species live from PokéAPI instead of the embedded list -- needs `gerund.py`
+beside it; useful when Gen 10 lands). Each subcommand offers only the flags it
+actually honours.
 
 The installer timestamps a backup of `settings.json` before every write, writes
 atomically via a temp file + rename, and preserves all your other settings keys.
@@ -145,15 +146,19 @@ on any console codepage.
 ## Repo layout
 
 ```
-.claude-plugin/     plugin + marketplace manifests (validated)
-commands/           the /pokespin slash command
-install.sh          curl | sh one-liner
-install.ps1         irm | iex one-liner
-fetch_species.py   one-time pull + integrity check  -> data/species.json
-gerund.py          the inflection rules
-build.py           species + rules                  -> data/verbs.json, dist/pokespin.py
-data/verbs.json    1025 {id, gen, pokemon, verb} records
-dist/pokespin.py   the self-contained installer (this is what you ship)
+dist/pokespin.py       the self-contained installer -- this is what you ship
+.claude-plugin/        plugin + marketplace manifests (both validate)
+commands/pokespin.md   the /pokespin slash command
+install.sh             curl | sh one-liner
+install.ps1            irm | iex one-liner
+publish.sh             repoint the install URLs at your own account, and push
+
+fetch_species.py       one-time pull + integrity check -> data/species.json
+gerund.py              the inflection rules
+pokespin_template.py   the installer source, before the verbs are embedded
+build.py               template + data -> data/verbs.json, dist/pokespin.py
+data/species.json      1025 {id, slug, name, generation} records from PokéAPI
+data/verbs.json        1025 {id, gen, pokemon, verb} records
 ```
 
 Rebuild after editing rules: `python build.py`
@@ -168,13 +173,16 @@ Everything is a static file, so any host that serves raw text works. For GitHub:
    ```bash
    sh publish.sh <your-github-username>
    ```
-   That rewrites the install URLs, commits, and pushes.
+   It detects whichever account the install URLs currently name, rewrites
+   them to yours, commits, and pushes.
 
 The one-liners and `/plugin marketplace add <your-username>/pokespin` then work
 for anyone, with no release step and no build artifacts to publish.
 
-Users can pin a fork or branch without editing anything:
-`POKESPIN_REPO=someone/pokespin POKESPIN_REF=v1.0.0 sh install.sh`
+Users can pin a fork, branch, tag or commit without editing anything:
+`POKESPIN_REPO=someone/pokespin POKESPIN_REF=main sh install.sh`
+(`POKESPIN_REF` takes any git ref this repo actually has -- there are no
+release tags, so `main` or a commit SHA are the useful values.)
 
 ## Disclaimer
 

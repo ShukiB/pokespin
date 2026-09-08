@@ -21,10 +21,8 @@ the list. Standard library only; no dependencies.
     python pokespin.py install --refresh     # re-pull live from PokeAPI
 
 Restart Claude Code after installing; settings are read at startup.
-
-`autoinstall` is the guarded variant the plugin's SessionStart hook calls: it
-installs generation 1 only, runs at most once per machine, never overwrites an
-existing spinnerVerbs, and swallows every error so it cannot break a session.
+Nothing is written unless you ask for it: there are no hooks and no background
+work, and `uninstall` puts Claude Code's own verbs back.
 """
 import argparse, io, json, os, random, shutil, sys, time
 
@@ -226,35 +224,6 @@ def cmd_uninstall(a):
     print("Restart Claude Code to restore the default verbs.")
 
 
-MARKER = os.path.join(os.path.expanduser("~"), ".claude", ".pokespin-autoinstall")
-
-
-def cmd_autoinstall(a):
-    """One-shot install used by the SessionStart hook.
-
-    Installs DEFAULT_GENS (generation 1). Deliberately conservative: runs at
-    most once per machine, never overwrites a spinnerVerbs you already set, and
-    can never break a session -- any failure exits 0 silently.
-    """
-    try:
-        if os.path.exists(MARKER):
-            return                      # already ran once; an uninstall stays uninstalled
-        path = settings_path("user")
-        data = load_settings(path)
-        if "spinnerVerbs" not in data:  # never clobber the user's own choice
-            data["spinnerVerbs"] = {"mode": "replace",
-                                    "verbs": verbs_for(DEFAULT_GENS)}
-            backup(path)
-            save_settings(path, data)
-        os.makedirs(os.path.dirname(MARKER), exist_ok=True)
-        with io.open(MARKER, "w", encoding="utf-8") as f:
-            stamp = time.strftime("%Y-%m-%d %H:%M:%S")
-            f.write("pokespin " + __version__ + " installed at " + stamp)
-    except (Exception, SystemExit):
-        pass       # SystemExit too: load_settings() exits on a corrupt file, and
-                   # a cosmetic plugin must never break session startup
-
-
 def cmd_status(a):
     path = settings_path(a.scope)
     print("settings: %s%s" % (path, "" if os.path.exists(path) else "  (missing)"))
@@ -306,7 +275,9 @@ def main(argv=None):
     p.add_argument("--version", action="version", version="pokespin " + __version__)
     sub = p.add_subparsers(dest="cmd")
 
-    def common(sp, scope=True, gen=True):
+    def common(sp, scope=True, gen=True, refresh=True, dry_run=True):
+        # Only the flags a command actually honours: argparse would happily
+        # accept --refresh on `status` and silently do nothing with it.
         if scope:
             sp.add_argument("--scope", choices=["user", "project"], default="user",
                             help="user = ~/.claude/settings.json (default); "
@@ -314,11 +285,13 @@ def main(argv=None):
         if gen:
             sp.add_argument("--gen", "-g", default=None, metavar="SPEC",
                             help="which generations: 1 (default), 1-3, 2,5,9, or all")
-        sp.add_argument("--refresh", action="store_true",
-                        help="re-pull species live from PokeAPI instead of the "
-                             "embedded list")
-        sp.add_argument("--dry-run", action="store_true",
-                        help="show what would change, write nothing")
+        if refresh:
+            sp.add_argument("--refresh", action="store_true",
+                            help="re-pull species live from PokeAPI instead of the "
+                                 "embedded list")
+        if dry_run:
+            sp.add_argument("--dry-run", action="store_true",
+                            help="show what would change, write nothing")
 
     sp = sub.add_parser("install", help="write the verbs into settings.json")
     sp.add_argument("--mode", choices=["replace", "append"], default="replace",
@@ -327,20 +300,16 @@ def main(argv=None):
     sp.set_defaults(func=cmd_install)
 
     sp = sub.add_parser("uninstall", help="remove the setting again")
-    common(sp, gen=False)
-    sp.set_defaults(func=cmd_uninstall)
-
-    sp = sub.add_parser("autoinstall",
-                        help="internal: one-shot install used by the SessionStart hook")
-    sp.set_defaults(func=cmd_autoinstall, refresh=False, dry_run=False, scope="user")
+    common(sp, gen=False, refresh=False)
+    sp.set_defaults(func=cmd_uninstall, refresh=False)
 
     sp = sub.add_parser("status", help="show what is currently installed")
-    common(sp, gen=False)
+    common(sp, gen=False, refresh=False, dry_run=False)
     sp.set_defaults(func=cmd_status)
 
     sp = sub.add_parser("preview", help="print a random sample of verbs")
     sp.add_argument("-n", "--number", type=int, default=10)
-    common(sp, scope=False)
+    common(sp, scope=False, dry_run=False)
     sp.set_defaults(func=cmd_preview)
 
     sp = sub.add_parser("gens", help="list the generations and their sizes")
