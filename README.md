@@ -50,9 +50,6 @@ installs no hooks, runs no background processes, and makes no network calls at
 runtime -- the verb list is embedded in the file. `/pokespin uninstall` removes
 the setting and restores Claude Code's own verbs.
 
-Prefer it to install itself? The `hook-variant` branch ships a `SessionStart`
-hook that writes generation 1 on first load, making it a two-line install.
-
 ### Manual
 
 Copy `dist/pokespin.py` anywhere (it is fully self-contained) and run it:
